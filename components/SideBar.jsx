@@ -9,9 +9,9 @@ const SideBar = () => {
         <div className="flex flex-col items-start gap-5">
           {menuList.map((list, index) => {
             return (
-              <ul className="min-w-[300px] bg-secondary px-3 py-2 rounded-lg text-background font-semibold">
+              <ul className="min-w-[300px] bg-secondary px-3 py-2 rounded-lg text-background font-semibold" key={index}>
                 <Link href={list.path} className="flex items-center gap-3">
-                  <p className="text-background">{list.icon}</p>
+                  <li className="text-background">{list.icon}</li>
                   <li>{list.label}</li>
                 </Link>
               </ul>
