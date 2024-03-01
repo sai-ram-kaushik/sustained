@@ -14,6 +14,7 @@ module.exports = {
       },
 
       fontFamily: {
+        poppins: "Poppins",
         lexend: "Lexend",
         playfair: "Playfair Display",
       },

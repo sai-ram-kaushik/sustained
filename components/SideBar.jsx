@@ -4,7 +4,7 @@ import React from "react";
 
 const SideBar = () => {
   return (
-    <div className=" px-5 lg:px-10 py-10 border-r">
+    <div className=" px-5 lg:px-10 py-10 border-r lg:sticky lg:top-0">
       <div className="container mx-auto w-full">
         <div className="flex flex-col items-start gap-5">
           {menuList.map((list, index) => {

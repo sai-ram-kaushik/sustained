@@ -9,23 +9,23 @@ html {
 
 @layer base {
   body {
-    @apply bg-background text-primary font-playfair;
+    @apply bg-background text-primary font-poppins;
   }
 
   h1 {
-    @apply text-4xl md:text-5xl lg:text-7xl xl:text-7xl font-lexend;
+    @apply text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-playfair font-bold;
   }
 
   h2 {
-    @apply text-3xl md:text-4xl lg:text-4xl xl:text-4xl font-lexend font-bold;
+    @apply text-3xl md:text-3xl lg:text-3xl xl:text-3xl font-playfair font-bold;
   }
 
   h3 {
-    @apply text-3xl md:text-3xl lg:text-3xl xl:text-3xl font-lexend font-bold;
+    @apply text-3xl md:text-3xl lg:text-3xl xl:text-3xl font-playfair font-bold;
   }
 
   h4 {
-    @apply text-2xl md:text-2xl lg:text-2xl xl:text-2xl font-lexend font-bold;
+    @apply text-2xl md:text-2xl lg:text-2xl xl:text-2xl font-playfair font-bold;
   }
 
   span {
@@ -33,7 +33,7 @@ html {
   }
 
   p {
-    @apply text-lg lg:text-xl text-primary/60;
+    @apply text-lg lg:text-lg text-primary;
   }
 }
 
@@ -42,7 +42,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #37dbff;
+  background-color: #305931;
   border-radius: 1rem;
   background-clip: content-box;
 }
