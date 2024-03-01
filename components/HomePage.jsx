@@ -2,6 +2,7 @@ import React from "react";
 import { CiCalendarDate } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
 import Button from "./Button";
+import TransitionEffect from "./TransitionEffect";
 const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
   const { title, location, organized, buttonTitle, image } = homePage;
   const { conferenceTitle, content } = aboutConference;
@@ -9,6 +10,7 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
   return (
     <div className="py-10 px-5 lg:px-10">
       <div className="container mx-auto">
+        <TransitionEffect />
         <div className="flex flex-col items-center gap-5">
           <h1 className="text-center text-secondary">{title}</h1>
 

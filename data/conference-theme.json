@@ -1,0 +1,103 @@
+{
+  "conferenceTheme": {
+    "title": "Conference Theme",
+    "themes": [
+      {
+        "label": "Track 1",
+        "data": "Engineering Materials for Sustainable Mechanical Systems"
+      },
+      {
+        "label": "Track 2",
+        "data": "Manufacturing Process and Techniques"
+      },
+      {
+        "label": "Track 3",
+        "data": "Industrial Engineering and Management"
+      },
+      {
+        "label": "Track 4",
+        "data": "Design and Thermal Engineering"
+      },
+      {
+        "label": "Track 5",
+        "data": "Sustainable Mechanical System & Product Development"
+      },
+      {
+        "label": "Track 6",
+        "data": "Renewable and Non-renewable Energy"
+      },
+      {
+        "label": "Track 7",
+        "data": "Energy Storage Management and Optimization"
+      },
+      {
+        "label": "Track 8",
+        "data": "Robotics and Automation"
+      },
+      {
+        "label": "Track 9",
+        "data": "Electric Vehicle Technology"
+      },
+      {
+        "label": "Track 10",
+        "data": "Control System Applications"
+      },
+      {
+        "label": "Track 11",
+        "data": "Smart Grids and Waste Energy Integration"
+      },
+      {
+        "label": "Track 12",
+        "data": "Power Electronics"
+      },
+      {
+        "label": "Track 13",
+        "data": "Green Energy Technologies"
+      },
+      {
+        "label": "Track 14",
+        "data": "Big Data, Distributed and Cloud Computing"
+      },
+      {
+        "label": "Track 15",
+        "data": "5G, IoT, and Futuristic Technologies"
+      },
+      {
+        "label": "Track 16",
+        "data": "Intelligent Systems and Automation"
+      },
+      {
+        "label": "Track 17",
+        "data": "Multimedia Services & Technologies"
+      },
+      {
+        "label": "Track 18",
+        "data": "Neural Informatics, Machine Learning & Deep Learning"
+      },
+      {
+        "label": "Track 19",
+        "data": "Hardware Design and Communication"
+      },
+      {
+        "label": "Track 20",
+        "data": "Ubiquitous Computing, Networking and Cyber Security"
+      },
+      {
+        "label": "Track 21",
+        "data": "Smart City, Smart Systems and Technologies"
+      },
+      {
+        "label": "Track 22",
+        "data": "Sustainable Infrastructure Development"
+      },
+      {
+        "label": "Track 23",
+        "data": "Advancements in Structural Engineering"
+      },
+      {
+        "label": "Track 24",
+        "data": "Miscellaneous Topics in Engineering related to Sustainability"
+      }
+    ]
+  }
+}
