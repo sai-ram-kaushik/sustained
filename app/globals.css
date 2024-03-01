@@ -37,6 +37,11 @@ html {
   }
 }
 
+table, th, td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
 }

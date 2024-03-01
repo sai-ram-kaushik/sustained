@@ -30,7 +30,9 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
 
           <p className="text-center">{organized}</p>
 
-          <Button title={buttonTitle} />
+          <a href="https://forms.gle/jXHp1gtJnaxAhUzP7" target="_blank">
+            <Button title="Register Now" />
+          </a>
 
           <img src={image} alt="conference_image" />
         </div>

@@ -1,0 +1,36 @@
+{
+    "organizingCommittee": {
+      "title": "Organizing Committee",
+      "content": [
+        {
+          "title": "Chief Patron",
+          "data": [
+            { "name": "Dr. Prashant Bhalla", "desc": "President, MREI" },
+            { "name": "Dr. Amit Bhalla", "desc": "Vice President, MREI" }
+          ]
+        },
+        {
+          "title": "Patron",
+          "data": [
+            {
+              "name": "Prof. (Dr.) Sanjay Srivastava",
+              "desc": "Vice Chancellor, MRIIRS, Faridabad"
+            },
+            {
+              "name": "Prof. (Dr.) Pardeep Kumar",
+              "desc": "Pro-Vice Chancellor, MRIIRS, Faridabad"
+            },
+            {
+              "name": "Prof. (Dr.) Naresh Grover",
+              "desc": "Pro-Vice Chancellor, MRIIRS, Faridabad"
+            },
+            {
+              "name": "Shri R. K. Arora",
+              "desc": "Registrar, MRIIRS, Faridabad"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
