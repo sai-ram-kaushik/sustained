@@ -1,13 +1,13 @@
 import React from "react";
 import dataSet from "@/data/set.json";
-import TransitionEffect from "@/components/TransitionEffect";
+// import TransitionEffect from "@/components/TransitionEffect";
 
 const AboutSet = () => {
   const { aboutSET, aboutME, aboutEEE, aboutECE, aboutCE } = dataSet;
   return (
     <div className="px-5 lg:px-10 py-10">
       <div className="container mx-auto">
-        <TransitionEffect />
+        {/* <TransitionEffect /> */}
         <div className="flex flex-col gap-3 items-center justify-center">
           <h3 className="text-center">{aboutSET.title}</h3>
           <p>{aboutSET.content}</p>

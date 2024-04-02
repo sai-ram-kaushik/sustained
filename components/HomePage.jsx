@@ -14,25 +14,34 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
         <div className="flex flex-col items-center gap-5">
           <h1 className="text-center text-secondary">{title}</h1>
 
-          <p className="flex items-center gap-2 text-xl font-bold">
+          {/* <p className="flex items-center gap-2 text-xl font-bold">
             <span>
               <CiCalendarDate />
             </span>
             30<sup>th</sup> - 31<sup>st</sup> August, 2024
-          </p>
+          </p> */}
 
-          <p className="flex items-center gap-2 text-xl font-bold">
+          {/* <p className="flex items-center gap-2 text-xl font-bold">
             <span>
               <FaLocationDot />
             </span>
             {location}
-          </p>
+          </p> */}
 
           <p className="text-center">{organized}</p>
 
-          <a href="https://forms.gle/jXHp1gtJnaxAhUzP7" target="_blank">
-            <Button title="Register Now" />
-          </a>
+          <div className="flex items-center gap-3">
+            <a href="https://forms.gle/jXHp1gtJnaxAhUzP7" target="_blank">
+              <Button title="Register Now" />
+            </a>
+
+            <a
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSUSTAINED2024"
+              target="_black"
+            >
+              <Button title="Submission Open" />
+            </a>
+          </div>
 
           <img src={image} alt="conference_image" />
         </div>

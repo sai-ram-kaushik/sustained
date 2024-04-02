@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
-        <div className="flex flex-col lg:flex-row items-center lg:items-start min-h-screen">
-          <SideBar />
+        <SideBar />
+        <div>
           <main className="flex-grow">{children}</main>
           <AcademicPartners />
         </div>

@@ -1,6 +1,13 @@
 {
-    "academicPartners": {
-        "title": "Academic Partners",
-        "content": ""
-    }
+  "academicPartners": {
+    "title": "Academic Partners",
+    "content": [
+      { "label": "AWS", "image": "/partners/aws.png" },
+      { "label": "IBM", "image": "/partners/ibm.png" },
+      { "label": "Infosis", "image": "/partners/infosis1.png" },
+      { "label": "Microsoft", "image": "/partners/microsoft.png" },
+      { "label": "Oracle", "image": "/partners/oracle.png" },
+      { "label": "Purdue", "image": "/partners/purdue.png" }
+    ]
+  }
 }

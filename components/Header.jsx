@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import logo from "@/public/logo.png";
+import { CiCalendarDate } from "react-icons/ci";
 import mrlogo from "@/public/mrlogo.png";
 const Header = () => {
   return (
@@ -9,10 +10,16 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row items-center gap-2 lg:justify-between w-full">
           <Image src={logo} alt="logo" width={150} height={150} />
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col gap-2 items-center">
             <h2 className="text-secondary">SUSTAINED - 2024</h2>
-            <p className="text-[#B33D24] text-center font-bold">
-              Manav Rachna International Institute of Research and Studies
+            <p className="flex items-center gap-2 text-xl font-bold">
+              <span>
+                <CiCalendarDate />
+              </span>
+              30<sup>th</sup> - 31<sup>st</sup> August, 2024
+            </p>
+            <p className="text-[#B33D24] text-2xl text-center font-bold">
+              Manav Rachna International Institute of Research and Studies, Faridabad
             </p>
           </div>
 

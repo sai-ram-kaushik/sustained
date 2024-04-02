@@ -9,11 +9,11 @@ export const menuList = [
   { label: "Conference Theme", path: "/conferene-theme", icon: <FaBuilding /> },
   { label: "Call for Papers", path: "/call-for-papers", icon: <FaBuilding /> },
   { label: "Publications", path: "/publications", icon: <FaBuilding /> },
-  {
-    label: "Special Seminars",
-    path: "/special-seminars",
-    icon: <FaBuilding />,
-  },
+  // {
+  //   label: "Special Seminars",
+  //   path: "/special-seminars",
+  //   icon: <FaBuilding />,
+  // },
   {
     label: "Academic Speakers",
     path: "/academic-speakers",
@@ -93,6 +93,15 @@ export const co_convenor = [
   {
     label: "Dr. Anjali Gupta",
     designation: " Professor, Department of Civil Engineering",
+  },
+  {
+    label: "Dr. Vimlesh Singh",
+    designation:
+      "Associate Professor, Department of Electronics and Communication Engineering",
+  },
+  {
+    label: "Dr. Jimmy Mehta",
+    designation: "Assistant Professor, Department of Mechanical Engineering",
   },
   {
     label: "Dr. Prateek Mittal",

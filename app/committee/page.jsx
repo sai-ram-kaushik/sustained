@@ -132,7 +132,7 @@ const Committee = () => {
           {review.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -145,7 +145,7 @@ const Committee = () => {
           {finance.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -158,7 +158,7 @@ const Committee = () => {
           {sponsorship.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -171,7 +171,7 @@ const Committee = () => {
           {publicity.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -186,7 +186,7 @@ const Committee = () => {
           {inaugural_and_valedictory_committee.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -201,7 +201,7 @@ const Committee = () => {
           {registration.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -214,7 +214,7 @@ const Committee = () => {
           {website.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -229,7 +229,7 @@ const Committee = () => {
           {accommodation.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -244,7 +244,7 @@ const Committee = () => {
           {national_collaboration.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -259,7 +259,7 @@ const Committee = () => {
           {international_collaboration.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -272,7 +272,7 @@ const Committee = () => {
           {industrial.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -285,7 +285,7 @@ const Committee = () => {
           {discipline.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -298,7 +298,7 @@ const Committee = () => {
           {poster.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
