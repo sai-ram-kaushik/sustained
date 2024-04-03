@@ -6,7 +6,9 @@
           "title": "Chief Patron",
           "data": [
             { "name": "Dr. Prashant Bhalla", "desc": "President, MREI" },
-            { "name": "Dr. Amit Bhalla", "desc": "Vice President, MREI" }
+            { "name": "Dr. Amit Bhalla", "desc": "Vice President, MREI" },
+            { "name": "Mr. Deepak Mathur", "desc": "Vice President IEEE MGA" },
+            { "name": "Prof. (Dr.) Debabrata Das", "desc": "Chair of IEEE India Council & Director IIIT Bangalore" }
           ]
         },
         {

@@ -28,6 +28,8 @@ export const menuList = [
 export const chief_patrons = [
   { label: "Dr. Prashant Bhalla", designation: "President, MREI" },
   { label: "Dr. Amit Bhalla", designation: "Vice President, MREI" },
+  { label : "Mr. Deepak Mathur", designation: "Vice President IEEE MGA" },
+  { label: "Prof. (Dr.) Debabrata Das", designation: "Chair of IEEE India Council & Director IIIT Bangalore" },
 ];
 
 export const patrons = [
@@ -35,15 +37,36 @@ export const patrons = [
     label: "Prof. (Dr.) Sanjay Srivastava",
     designation: "Vice Chancellor, MRIIRS, Faridabad",
   },
-  {
-    label: "Prof. (Dr.) Pardeep Kumar",
-    designation: "Pro-Vice Chancellor, MRIIRS, Faridabad",
-  },
+ 
   {
     label: "Prof. (Dr.) Naresh Grover",
     designation: "Pro-Vice Chancellor, MRIIRS, Faridabad",
   },
-  { label: "Shri R. K. Arora", designation: "Registrar, MRIIRS, Faridabad" },
+
+  {
+    label: "Shri Ramesh Nair",
+    designation: "Registrar, MRIIRS, Faridabad",
+  },
+
+  {
+    label: "Prof. (Dr.) Abdul Quaiyum Ansari",
+    designation: "Chair IEEE Delhi Section",
+  },
+
+  {
+    label: "Prof. (Dr.) Prerna Gaur",
+    designation: "Chair of Education Activities, IEEE Delhi Section and Chair-Elect IEEE India Council",
+  },
+
+  {
+    label: "Prof. (Dr.) Rajnish Sharma",
+    designation: "Secretary IEEE Delhi Section",
+  },
+
+
+
+  
+  
 ];
 
 export const co_patrons = [
@@ -58,28 +81,18 @@ export const co_patrons = [
 ];
 
 export const general_chair = [
+
   {
-    label: "Prof. (Dr.) Manoj Nayak",
-    designation: "Professor & Head, Department of Mechanical Engineering",
+    label: "Prof. (Dr.) Pardeep Kumar",
+    designation: "Pro-Vice Chancellor, MRIIRS, Faridabad",
   },
+  
   {
-    label: "Prof. (Dr.) Devendra Vashisht",
-    designation: "Professor & Head, Department of Automobile Engineering, ",
+    label: "Prof. (Dr.) Preeti Bajaj",
+    designation: "Vice-Chair, SDA Committee-IEEE India Council ",
   },
-  {
-    label: "Prof. (Dr.) Leena Gopinathan",
-    designation:
-      "Professor & Head, Department of Electrical and Electronics Engineering",
-  },
-  {
-    label: "Prof. (Dr.) Abhiruchi Passi",
-    designation:
-      "Professor & Head, Department of Electronics & Communication Engineering ",
-  },
-  {
-    label: "Prof. (Dr.) T. Senthil Vadivel",
-    designation: "Professor & Head, Department of Civil Engineering",
-  },
+
+
 ];
 
 export const conference_chair = [
@@ -110,29 +123,56 @@ export const co_convenor = [
 ];
 
 export const review = [
-  { label: "Dr. Basanta Kumar Bhuyan", designation: "ME" },
   { label: "Dr. Vimlesh Singh", designation: "ECE" },
+  { label: "Dr. Sneha Kabra", designation: "IEEE Delhi Section" },
+  { label: "Dr. Basanta Kumar Bhuyan", designation: "ME" },
   { label: "Dr. Ashwini Kumar", designation: "ME" },
   { label: "Dr. Richa Adlakha", designation: "EEE" },
   { label: "Dr. Lilesh Gautam", designation: "CE" },
 ];
 
+export const conference = [
+  { label: "Dr. Manoj Nayak", designation: "ME" },
+  { label: "Dr. Amit Kumar", designation: "Member of SDEA of IEEE MGA" },
+  { label: "Dr. Sneha Kabra", designation: "IEEE Delhi Section" },
+  { label: "Dr. Sabri Nath G. Pillai", designation: "Secretary of the IEEE India Council" },
+]
+
+export const worshop = [
+  { label: "Dr. Anjali Gupta", designation: "CE" },
+  { label: "Dr. Sneha Kabra", designation: "IEEE Delhi Section" },
+  { label: "Mr. Arun M.", designation: "IEEE Madras Section" },
+  { label: "Dr. Prateek Agarwal", designation: "IEEE Delhi Section" },
+  { label: "Dr. G. Sree Lakshmi", designation: "IEEE Hyderabad Section" },
+  { label: "Dr. Chirondeep Bakli", designation: "IEEE Kharagpur Section" },
+  { label: "Dr. Vijay Laxmi Biradar", designation: "IEEE MP Section" },
+  { label: "Dr. Mandar Bhawalkar", designation: "IEEE Pune Section" },
+  { label: "Mr. C.M. Varughese", designation: "IEEE Kerala Section" },
+  { label: "Dr. Debangshu Dey", designation: "IEEE Kolkata Section" },
+];
+
+
+
 export const finance = [
   { label: "Mr. Sushant", designation: "ME" },
-  { label: "Dr. Pratima Manhas", designation: "ECE" },
+  { label: "Dr. Amrinder Kaur", designation: "EEE" },
 ];
 
 export const sponsorship = [
   { label: "Dr. Devendra Vashisht", designation: "AUE" },
-  { label: "Dr. Rajendra Kumar", designation: "ME" },
+  { label: "Dr. Sneha Kabra", designation: "IEEE Delhi Section" },
   { label: "Dr. Ashish Grover", designation: "EEE" },
   { label: "Dr. Ashish Shukla", designation: "CE" },
+  { label: "Dr. Dinesh Chawala", designation: "ME" },
+  { label: "Dr. Ashu Gautam", designation: "ECE" },
 ];
 
 export const publicity = [
   { label: "Dr. Gurpreet Singh Matharou", designation: "ME" },
+  { label: "Mr. Arun M.", designation: "IEEE Madras Section" },
+  { label: "Dr. Debangshu Dey", designation: "IEEE Kolkata Section" },
   { label: "Dr. Richa Adlakha", designation: "EEE" },
-  { label: "Mr. Yaman Hooda", designation: "CE" },
+  { label: "Dr. Yaman Hooda", designation: "CE" },
   { label: "Dr. Jyoti Verma", designation: "ECE" },
 ];
 
@@ -140,6 +180,7 @@ export const inaugural_and_valedictory_committee = [
   { label: "Dr. Jimmy Mehta", designation: "ME" },
   { label: "Dr. Neha Chaudhary", designation: "EEE" },
   { label: "Dr. Namita", designation: "ECE" },
+  { label: "Dr. Pratima Manhas", designation: "ECE" },
 ];
 
 export const registration = [
@@ -166,13 +207,15 @@ export const national_collaboration = [
 
 export const international_collaboration = [
   { label: "Dr. Jimmy Mehta", designation: "ME" },
-  { label: "Dr. Sumit", designation: "EEE" },
-  { label: "Dr. Lilesh Gautam", designation: "CE" },
+  { label: "Dr. Prateek Agrawal", designation: "IEEE Delhi Section" },
+  { label: "Dr. Chirondeep Bakli", designation: "IEEE Kharagpur Section" },
+
 ];
 
 export const industrial = [
-  { label: "Mr. Sushant", designation: "ME" },
   { label: "Dr. Amana Yadav", designation: "ECE" },
+  { label: "Dr. G. Sree Lakshmi", designation: "IEEE Hyderabad Section" },
+  { label: "Mr. C.M. Varughese", designation: "IEEE Kerala Section" },
 ];
 
 export const discipline = [

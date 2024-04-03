@@ -180,9 +180,7 @@ const SponsorshipProposal = () => {
             </p>
           </div>
 
-          <div>
-            <Image src={sponsor_image} alt="sponsor_vector" />
-          </div>
+
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-5 mt-16 text-lg lg:text-xl font-bold">

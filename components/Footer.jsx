@@ -11,7 +11,11 @@ const Footer = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full bg-[#10182F] mt-5">
+    <>
+    <p className="text-xs px-7 flex items-center ">
+      * Approval is pending
+    </p>
+    <div className="w-full bg-[#10182F]">
       <div className="flex flex-col items-center justify-center p-4 gap-4">
         <Image src={logo} width={100} height={100} alt="logo" />
 
@@ -55,6 +59,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

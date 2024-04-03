@@ -3,6 +3,8 @@ import { CiCalendarDate } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
 import Button from "./Button";
 import TransitionEffect from "./TransitionEffect";
+import Image from "next/image";
+import { more } from "@/data/more";
 const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
   const { title, location, organized, buttonTitle, image } = homePage;
   const { conferenceTitle, content } = aboutConference;
@@ -28,7 +30,14 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
             {location}
           </p> */}
 
-          <p className="text-center">{organized}</p>
+          <div className="flex flex-col gap-y-2">
+             <p className="text-center font-semibold text-md  mt-3">{organized}</p>
+             <p className="text-center text-2xl font-semibold">&</p>
+             <p className="text-center font-semibold text-md mb-5">
+              SDA Committe - IEEE India Council<sup>*</sup>
+             </p>
+
+          </div>
 
           <div className="flex items-center gap-3">
             <a href="https://forms.gle/jXHp1gtJnaxAhUzP7" target="_blank">
@@ -43,13 +52,26 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
             </a>
           </div>
 
-          <img src={image} alt="conference_image" />
+           <Image
+             src={"/images/manav-1.png"}
+             alt="img"
+             height={800}
+             width={800}
+             className="rounded-md"
+           />
         </div>
 
         <div className="flex flex-col gap-3 items-center justify-center mt-10">
           <h3 className="text-center">{conferenceTitle}</h3>
           <p className="text-justify">{content}</p>
         </div>
+
+         {more?.map((item,index) =>  (
+            <div className="flex flex-col gap-3 items-center justify-center mt-10">
+               <h3 className="text-center">{item.title}</h3>
+               <p className="text-justify">{item.dec}</p>
+            </div>
+         ))}
 
         <div className="flex flex-col gap-3 items-center justify-center mt-10">
           <h3 className="text-center">{collegeTitle}</h3>
