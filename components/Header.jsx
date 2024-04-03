@@ -29,7 +29,7 @@ const Header = () => {
             </p>
           </div>
 
-          <Image src={mrlogo} width={250} height={250}  className="mb-20"/>
+          <Image src={mrlogo} alt="img" width={250} height={250}  className="mb-20"/>
         </div>
       </div>
     </div>
