@@ -25,7 +25,7 @@ const Track = ({track,index}) => {
            }> 
              <div className='mt-3'>
                {track?.items.map((item,index) => (
-                  <div className='flex flex-row items-center gap-x-3 space-y-2'>
+                  <div className='flex flex-row items-center gap-x-3 space-y-2' key={index}>
                      <div className='rounded-full bg-slate-600 p-1'/>
                      <p className='text-slate-400 text-sm'>
                        {item} 

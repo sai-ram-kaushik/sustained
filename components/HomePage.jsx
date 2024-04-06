@@ -67,7 +67,7 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
         </div>
 
          {more?.map((item,index) =>  (
-            <div className="flex flex-col gap-3 items-center justify-center mt-10">
+            <div className="flex flex-col gap-3 items-center justify-center mt-10" key={index}>
                <h3 className="text-center">{item.title}</h3>
                <p className="text-justify">{item.dec}</p>
             </div>
