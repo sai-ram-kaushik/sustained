@@ -70,8 +70,8 @@ const CallForPapers = () => {
           <h3>Guidlines</h3>
           <h4>Full Paper Submission & Guidlines</h4>
           <div className="flex flex-col gap-2 py-6">{
-            guidlines.map((item) => (
-              <li className="">{item}</li>
+            guidlines.map((item, index) => (
+              <li key={index}>{item}</li>
             ))
           }
           </div>
