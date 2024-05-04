@@ -254,3 +254,22 @@ export const socials = [
     key: "Twitter",
   },
 ];
+
+
+export const guidlines = [
+  "We encourage you to send an informative abstract (complete abstract) which is a compendious summary of your paper.",
+  "All manuscripts should be unpublished and original works of authors.",
+  "The abstract should not exceed 250 words.",
+  "Figures in image format minimum 300 dpi (TIFF or EPS format)",
+  "Line art figures in Image format minimum 600 dpi (TIFF or EPS format)",
+  "Paper should be submitted as per the given template (Click to download).",
+  "The paper should not contain page numbers or any special headers or footers.",
+  "Maximum allowed pages while submitting a camera-ready paper are 6 in double-column format for publication in IEEE. However, the authors can extend the maximum up to 8 pages with additional charges.",
+  "Maximum allowed pages for an extended version of the manuscript are 8-10 in the required format for various SCOPUS journal publications. ",
+  "Keep the plagiarism as below as 10% for acceptance.",
+  "The paper for submission must include Background, Motivation and Objective, Statement of Contribution/Methods, Results, Discussions, and Conclusions.",
+  "Registered members are asked to provide intimation about their payments immediately.",
+  "Any modification in the paper will not be accepted after the final submission date.",
+  "Registration after the deadline is not allowed.",
+  "Only presented papers will be submitted to IEEE Xplore for publication."
+]

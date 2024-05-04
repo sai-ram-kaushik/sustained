@@ -60,25 +60,57 @@ const Registration = () => {
         <div className="flex items-center justify-center mt-5">
           <ul
             role="list"
-            className="marker:text-secondary list-disc text-justify"
+            className="marker:text-secondary list-disc text-justify flex flex-col gap-5"
           >
             <li>
               If author submit more than one paper, he/she will receive
-              significant concession in the second registration. For more
+              significant <b>concession</b> in the second registration. For more
               details please contact Conference Chair and Convener.
             </li>
             <li>
-              Additional Fees will be charged for publication of extended
-              version of manuscripts according to the Journal.
+              An extended version of the presented paper will be considered for publication in <b>various journals and AIP Proceedings</b> which all are SCOPUS indexed. <b>*Additional Fees of INR 3000</b> will be charged for the publication of extended versions of manuscripts according to the Journal applicable to the student category only.
+            </li>
+            <li>
+              An extra page charge of ₹ 1000/- INR per page for Indian authors and $ 50 per page for international authors will be chargeable from the authors during the registration process.
             </li>
           </ul>
         </div>
+
+        <div className="my-10">
+          <table>
+            <tbody>
+              <tr >
+                <td >&nbsp;Name of Account</td>
+                <td >&nbsp;Manav Rachna International Institute of Research and Studies &nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Account Number</td>
+                <td>&nbsp;201004119068</td>
+              </tr>
+              <tr >
+                <td >&nbsp;IFSC Code</td>
+                <td >&nbsp;INDB0000702</td>
+              </tr>
+              <tr >
+                <td >&nbsp;Bank Name</td>
+                <td >&nbsp;IndusInd Bank</td>
+              </tr>
+              <tr >
+                <td >&nbsp;SWIFT CODE</td>
+                <td >&nbsp;INDBINBB</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
 
         <div className="flex items-center justify-center mt-5">
           <a href="https://forms.gle/jXHp1gtJnaxAhUzP7" target="_blank">
             <Button title="Click Here to Register" />
           </a>
         </div>
+
+
       </div>
     </div>
   );
