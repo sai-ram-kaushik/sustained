@@ -4,14 +4,21 @@ import Image from "next/image";
 import sponsor_image from "@/public/sponsor.svg";
 import TransitionEffect from "@/components/TransitionEffect";
 import TabButton from "@/components/TabButton";
+import { sponsorships} from "@/data/sponsorship.js";
+import { useEffect } from "react";
 const SponsorshipProposal = () => {
-  const [tab, setTab] = useState("Platinum Sponsorship (1,00,000 INR)");
-  const [isPending, startTransition] = useTransition();
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id);
-    });
-  };
+
+ const [mounted,setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  },[]);
+
+  if(!mounted){
+    return null;
+  }
+
+
   const Product_Tab_Data = [
     {
       title: "Platinum Sponsorship (1,00,000 INR)",
@@ -127,6 +134,7 @@ const SponsorshipProposal = () => {
             role="list"
             className="marker:text-secondary list-disc flex flex-col gap-5 p-3 text-justify lg:w-[40rem]"
           >
+           
             <li>
               Conference Kit Sponsorship: 50,000 INR (Benefits: Sponsor&apos;s
               Logo along with Organizer&apos;s Logo will be placed on the bag)
@@ -149,127 +157,160 @@ const SponsorshipProposal = () => {
   ];
   return (
     <div className="w-full px-4 lg:px-16 mt-10">
-      <TransitionEffect />
       <div className="container mx-auto">
         <div className="flex items-center justify-center">
-          <h2>
-            Sponsorship <span>Proposal</span>
+          <h2 className="text-black">
+            Sponsorship Proposal
           </h2>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-10 lg:gap-28 mt-10">
           <div className="flex flex-col items-center lg:items-start text-justify gap-5 text-lg">
+           <p className="text-lg mb-3"> Expected Gathering and Outcome:</p>
             <p>
-              SUSTAINED-2024 is a two-day event held on August 30-31, 2024, and
-              hosted by the School of Engineering and Technology, MRIIRS,
-              Faridabad. The event will include oral and poster presentations of
-              research papers grouped into parallel tracks. Keynote talks from
-              experts and panel discussions are also included in the program
-              schedule of the conference.
+              SUSTAINED-2024 is a two-day event held on December 13-14, 2024, and hosted by the School of Engineering and Technology, MRIIRS, Faridabad. The event will include oral and poster presentations of research papers grouped into parallel tracks. Keynote talks from experts and panel discussions are also included in the program schedule of the conference.
             </p>
             <p>
-              SUSTAINED-2024 is likely to be attended by Scientists and
-              Academicians, Engineers, Industry representatives, and Students
-              from all over the globe.
+              SUSTAINED-2024 is likely to be attended by Scientists and Academicians, Engineers, Industry representatives, and Students from all over the globe. So, it will be a golden platform to showcase your business/ product/ services and shape the conference for our mutual benefit.
             </p>
             <p>
-              We invite you to team with us in the promotion of scientific and
-              engineering research by sponsoring the conference. Various
-              opportunities for association are available as per sponsorship
-              details given below.
+             We invite you to team with us in the promotion of scientific and engineering research by sponsoring the conference. Various opportunities for association are available as per sponsorship details given below. To become a sponsor of the First IEEE International Conference on Sustainability and Technological Advancements in Engineering Domain (SUSTAINED 2024), please complete the form and email it to sustained@mriu.edu.in
             </p>
+
+            <div className="self-center">
+              <table>
+                <tr className="text-lg font-bold text-black">
+                  <th>SPONSORSHIP RATES PARTICULARS</th>
+                  <th>AMT. IN INDIAN RS</th>
+                  <th>REMARKS</th>
+               </tr>
+                <tr className="text-blue-700 text-xl">
+                  <th>Platinum Sponsor	2,00,000/-	</th>
+                  <th>2,00,000/-	</th>
+                  <th></th>
+                </tr>
+                <tr className="text-blue-700 text-xl">
+                  <th>Gold Sponsor		</th>
+                  <th>1,00,000/-	</th>
+                  <th></th>
+                </tr>
+                <tr className="text-blue-700 text-xl">
+                  <th>Silver Sponsor</th>
+                  <th>50,000/-</th>
+                  <th></th>
+                </tr>
+                <tr className="text-blue-700 text-xl">
+                  <th>Technical Session Sponsorship</th>
+                  <th>50,000/-	</th>
+                  <th>(per day)</th>
+                </tr>
+                <tr className="text-blue-700 text-xl">
+                  <th>Conference Banquet dinner</th>
+                  <th>1,50,000/-</th>
+                  <th>on Dec 13, 2024</th>
+                </tr>
+                <tr className="text-blue-700 text-xl">
+                  <th>Delegate Kits</th>
+                  <th>1,50,000/-</th>
+                  <th></th>
+                </tr>
+                <tr className="text-blue-700 text-xl">
+                  <th>High tea & Lunch</th>
+                  <th>50,000/-</th>
+                  <th>(per day)</th>
+                </tr>
+              </table>
+            </div>
           </div>
 
 
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-5 mt-16 text-lg lg:text-xl font-bold">
-          <TabButton
-            selectTab={() =>
-              handleTabChange("Platinum Sponsorship (1,00,000 INR)")
-            }
-            active={tab === "Platinum Sponsorship (1,00,000 INR)"}
-          >
-            Platinum Sponsorship (1,00,000 INR)
-          </TabButton>
-          <TabButton
-            selectTab={() => handleTabChange("Silver Sponsorship (50,000 INR)")}
-            active={tab === "Silver Sponsorship (50,000 INR)"}
-          >
-            Silver Sponsorship (50,000 INR)
-          </TabButton>
-          <TabButton
-            selectTab={() =>
-              handleTabChange("Dinner Sponsorship (25,0000 INR)")
-            }
-            active={tab === "Dinner Sponsorship (25,0000 INR)"}
-          >
-            Dinner Sponsorship (25,0000 INR)
-          </TabButton>
-          <TabButton
-            selectTab={() => handleTabChange("Allied Sponsorship")}
-            active={tab === "Allied Sponsorship"}
-          >
-            Allied Sponsorship
-          </TabButton>
+        <div className="flex flex-col gap-y-3 py-10 mt-11">
+           {sponsorships.map(item => (
+              <div className="mb-3 pb-3">
+                <p className="text-xl text-black font-semibold">{item.title}</p>
+                <div>
+                  {item.data.map(data => (
+                    <div className="flex flex-row gap-x-2 items-center mt-2">
+                       <div className="w-2 h-2 rounded-full bg-black/70"/>
+                       <p className="text-black text-md font-medium">{data}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+           ))}
         </div>
-
-        <div>{Product_Tab_Data.find((t) => t.id === tab).content}</div>
-
-        <div className="flex flex-col items-start justify-start mt-10 gap-3">
-          <p>
-            <b>Note:</b> For Coloured advertisements, artwork on CD with a
-            printout of the same should be provided by the advertiser only.
+        <div className="flex flex-col">
+          <p className="text-xl text-black font-semibold">
+           ALLIED SPONSORSHIP:
           </p>
-
-          <div className="flex flex-col items-start gap-3">
-            <p>
-              <b>General Terms & Conditions:</b>
-            </p>
-            <ol
-              role="list"
-              className="marker:text-secondary list-decimal p-3 text-justify"
-            >
-              <li>
-                Since sponsorship opportunities are limited, these shall be
-                allocated on a first come first serve basis.
-              </li>
-              <li>
-                The sponsors shall set up their stalls (specified size) and
-                bring display material as desired by them for the display
-                stalls.
-              </li>
-              <li>
-                All payments for sponsorship/stall bookings are to be made in
-                advance.
-              </li>
-              <li>All transactions are subject to Noida jurisdiction.</li>
-              <li>
-                All stall requirements shall be made known seven days before the
-                event. All additions shall be charged appropriately.
-              </li>
-              <li>
-                Company&apos;s Logo & complete Name of the Company with style
-                will be required for acknowledgment through Backdrops, Banners,
-                brochures, stationary, Invitation cards & other promotional
-                material.
-              </li>
-            </ol>
+          <div className="mt-1 flex-col gap-y-2">
+            <p className=" text-black text-md font-medium">•	Banner and Poster Sponsorship: 25,000 INR (Benefits: Conference Banner and Poster contain the sponsor's logo.) There will be an area for placement at the Conference Venue and Publicized across colleges and Universities.</p>
+           <p className=" text-black text-md font-medium">•	Pen drive, T-shirts, and Blazers Sponsorship.</p>
+           <p className=" text-black text-md font-medium">•	Pen drive, T-shirts, and Blazers Sponsorship.</p>
           </div>
 
-          <p>
-            <b>Mode of Payment:</b> All payments are to be made through
-            DD/Cheque drawn in favour of &apos;Manav Rachna International
-            Institute of Research and Studies, Haryana&apos; payable at
-            Faridabad.
+          <div className="mt-7 self-center">
+            <table>
+              <tr>
+                <th>Advertisement Size and Location</th>
+                <th>Rate (INR)</th>
+              </tr>
+              <tr>
+                <th>Back Cover Page (Colour)</th>
+                <th>50,0000</th>
+              </tr>
+              <tr>
+                <th>Inner Cover Page (Front & Back)</th>
+                <th>40,0000</th>
+              </tr>
+              <tr>
+                <th>Full Page (Colour)</th>
+                <th>30,000</th>
+              </tr>
+              <tr>
+                <th>Full Page (B & W)</th>
+                <th>20,000</th>
+              </tr>
+              <tr>
+                <th>Half Page (Colour)</th>
+                <th>15,000</th>
+              </tr>
+              <tr>
+                <th>Half Page (B & W)</th>
+                <th>12,000</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div className="mt-3">
+          <p className="line-clamp-2">
+            <span className="text-black font-bold text-md">Note : </span>
+            For Coloured advertisements, artwork on CD with a printout of the same should be provided by the advertiser only.
           </p>
+        </div>
+        <div className="mt-5">
+           <p className="text-xl text-black font-semibold">General Terms & Conditions:</p>
+           <div className="flex flex-col gap-y-2 mt-3">
+              <p>1. Since sponsorship opportunities are limited, these shall be allocated on a first come first serve basis.</p>
+              <p> 2.	The sponsors shall set up their stalls (specified size) and bring display material as desired by them for the display stalls.</p>
+              <p> 3.	The sponsors shall set up their stalls (specified size) and bring display material as desired by them for the display stalls.</p>
+              <p>4.	All transactions are subject to Faridabad jurisdiction.</p>
+              <p>5.	All stall requirements shall be made known seven days before the event. All additions shall be charged appropriately.</p>
+              <p>
+                6.Company's Logo & complete Name of the Company with style will be required for acknowledgment through Backdrops, Banners, brochures, stationary, Invitation cards & other promotional material.
+              </p>
+           </div>
+        </div>
+        <div className="mt-4 py-6">
           <p>
-            Please feel free to contact the finance person regarding any query
-            on sponsorship:
+            <span className="text-3xl text-blue-700 font-semibold">Mode of Payment : </span>
+            All payments are to be made through DD/Cheque drawn in favour of 'Manav Rachna International Institute of Research and Studies, Faridabad, Haryana' payable at Faridabad.
           </p>
-          <p>
-            <b>Dr. Devendra Vashisht</b> Mobile number: 8800495701 Email
-            id: devendra.set@mriu.edu.in
+
+          <p className="text-3xl text-blue-700 font-semibold mt-2">
+            Please feel free to contact us regarding any query on sponsorship: sustained@mriu.edu.in
           </p>
         </div>
       </div>

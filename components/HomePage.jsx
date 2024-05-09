@@ -10,11 +10,10 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
   const { conferenceTitle, content } = aboutConference;
   const { collegeTitle, collegeContent } = aboutManavRachna;
   return (
-    <div className="py-10 px-5 lg:px-10">
+    <div className="py-10 px-5 lg:px-10 relative">
       <div className="container mx-auto">
-        <TransitionEffect />
         <div className="flex flex-col items-center gap-5">
-          <h1 className="text-center text-secondary">{title}</h1>
+    
 
           {/* <p className="flex items-center gap-2 text-xl font-bold">
             <span>
@@ -30,34 +29,27 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
             {location}
           </p> */}
 
-          <div className="flex flex-col gap-y-2">
-             <p className="text-center font-semibold text-md  mt-3">{organized}</p>
-             <p className="text-center text-2xl font-semibold">&</p>
-             <p className="text-center font-semibold text-md mb-5">
-              SDA Committe - IEEE India Council<sup>*</sup>
-             </p>
-
-          </div>
-
-          <div className="flex items-center gap-3">
-            <a href="https://forms.gle/jXHp1gtJnaxAhUzP7" target="_blank">
+         
+            <a href="https://forms.gle/jXHp1gtJnaxAhUzP7" target="_blank" className="absolute left-2 top-1">
               <Button title="Register Now" />
             </a>
 
             <a
+              className="absolute right-2 top-1"
               href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSUSTAINED2024"
               target="_black"
             >
               <Button title="Submission Open" />
             </a>
-          </div>
+  
 
            <Image
+             
              src={"/images/manav-1.png"}
              alt="img"
              height={800}
              width={800}
-             className="rounded-md"
+             className="rounded-md py-11"
            />
         </div>
 

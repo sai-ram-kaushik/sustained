@@ -9,6 +9,7 @@ export const menuList = [
   { label: "Conference Theme", path: "/conferene-theme", icon: <FaBuilding /> },
   { label: "Call for Papers", path: "/call-for-papers", icon: <FaBuilding /> },
   { label: "Publications", path: "/publications", icon: <FaBuilding /> },
+  { label: "Contact", path: "/contact", icon: <FaBuilding /> },
   // {
   //   label: "Special Seminars",
   //   path: "/special-seminars",

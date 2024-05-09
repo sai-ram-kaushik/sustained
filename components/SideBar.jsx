@@ -6,7 +6,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { RiMenuFill } from "react-icons/ri";
 import { menuList } from "../constants";
 import Link from "next/link";
-const Navbar = () => {
+const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleChange = () => {
     setNav(!nav);
@@ -65,4 +65,8 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
+
+
+
+

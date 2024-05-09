@@ -31,7 +31,7 @@ const Committee = () => {
   return (
     <div className="px-5 lg:px-10 py-10">
       <div className="container mx-auto">
-        <TransitionEffect />
+    
         <div className="flex items-center justify-center">
           <h3>{title}</h3>
         </div>
