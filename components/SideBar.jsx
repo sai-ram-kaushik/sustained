@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from "react";
 import Image from "next/image";
-import logo from '@/public/logo.png'
 import { IoCloseSharp } from "react-icons/io5";
 import { RiMenuFill } from "react-icons/ri";
 import { menuList } from "../constants";
@@ -17,7 +16,7 @@ const NavBar = () => {
       <div className="w-full h-[10vh] z-[999] bg-background lg:bg-secondary mt-3 lg:text-background sticky top-0">
         <div className="flex items-center justify-between lg:justify-center w-full h-full px-6 lg:px-16">
           <div className="block lg:hidden">
-            <Image src={logo} width={100} height={100} alt="logo" />
+            <Image src={"/logo.png"} width={100} height={100} alt="logo" />
           </div>
           <div className="hidden lg:flex items-center gap-5">
             {menuList.map((list, index) => (

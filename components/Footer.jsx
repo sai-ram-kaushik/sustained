@@ -2,11 +2,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { BiPhoneCall } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
-import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
-import logo from '@/public/logo.png'
-import { menuList, socials } from "@/constants";
+import { menuList, socials } from "../constants/index.js";
 const Footer = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,7 +12,7 @@ const Footer = () => {
 
     <div className="w-full bg-[#10182F]">
       <div className="flex flex-col items-center justify-center p-4 gap-4">
-        <Image src={logo} width={100} height={100} alt="logo" />
+        <Image src={"/logo.png"} width={100} height={100} alt="logo" />
 
         <div className="hidden text-[10px] lg:flex items-center gap-6 text-background">
           {menuList.map((list, index) => (

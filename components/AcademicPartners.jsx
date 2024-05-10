@@ -1,5 +1,5 @@
 import React from "react";
-import data from "@/data/academic-partners.json";
+import data from "../data/academic-partners.json";
 const AcademicPartners = () => {
   const {
     academicPartners: { title, content },
