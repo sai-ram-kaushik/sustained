@@ -1,5 +1,5 @@
 import React from "react";
-import dataSet from "@/data/set.json";
+import dataSet from "../../data/set.json";
 import Image from "next/image";
 // import TransitionEffect from "@/components/TransitionEffect";
 

@@ -1,8 +1,9 @@
 import "./globals.css";
-import SideBar from "@/components/SideBar";
-import AcademicPartners from "@/components/AcademicPartners";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+
+import AcademicPartners from "../components/AcademicPartners.jsx"
+import {Header} from '../components/Header.jsx'
+import Footer from "../components/Footer.jsx";
+import SideBar from "../components/SideBar.jsx"
 
 export const metadata = {
   title: "Sustained - 2024",

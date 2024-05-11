@@ -1,5 +1,5 @@
 import React from "react";
-import data from "@/data/organizing-committee.json";
+import data from "../../data/organizing-committee.json"
 import {
   accommodation,
   chief_patrons,
@@ -23,7 +23,6 @@ import {
   conference,
   worshop
 } from "../../constants";
-import TransitionEffect from "@/components/TransitionEffect";
 const Committee = () => {
   const {
     organizingCommittee: { title },
@@ -31,7 +30,7 @@ const Committee = () => {
   return (
     <div className="px-5 lg:px-10 py-10">
       <div className="container mx-auto">
-        <TransitionEffect />
+    
         <div className="flex items-center justify-center">
           <h3>{title}</h3>
         </div>
