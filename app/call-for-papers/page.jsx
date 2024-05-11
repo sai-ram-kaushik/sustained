@@ -2,6 +2,7 @@
 
 import data from "../../data/call-for-papers.json";
 import { guidlines } from "../../constants/index";
+import Link from "next/link";
 
 
 const CallForPapers = () => {
@@ -59,8 +60,12 @@ const CallForPapers = () => {
         </div>
         <div>
           <p> IEEE Similarity / Plagiarism Policy:</p>
-          <a href="www.ieee.org/publications/rights/plagiarism/plagiarism.html" className="text-secondary underline block break-all max-w-full">www.ieee.org/publications/rights/plagiarism/plagiarism.html
-          </a>
+          <Link
+            href={'https://www.ieee.org/publications/rights/plagiarism/plagiarism.html'}
+            target="_blank"
+          >
+            https://www.ieee.org/publications/rights/plagiarism/plagiarism.html
+          </Link>
         </div>
       </div>
     </div>

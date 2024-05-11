@@ -43,14 +43,16 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
             </a>
   
 
-           <Image
+           <div className="rounded-xl">
+             <Image
              
-             src={"/images/manav-1.png"}
+             src={"/images/new.jpg"}
              alt="img"
-             height={800}
-             width={800}
-             className="rounded-md py-11"
+             height={1000}
+             width={1000}
+             className="rounded-xl py-11"
            />
+           </div>
         </div>
 
         <div className="flex flex-col gap-3 items-center justify-center mt-10">

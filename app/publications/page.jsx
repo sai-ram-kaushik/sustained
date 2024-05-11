@@ -37,7 +37,7 @@ const Publications = () => {
                  </p>
            </div>
          </ul>
-         <div className="pb-80 sm:pb-0 mx-auto w-full grid gap-y-4 grid-cols-1 sm:grid-cols-2 lg:gap-y-0 lg:grid-cols-3 py-8">
+         <div className="pb-80 sm:pb-0 mx-auto w-full grid gap-y-4 grid-cols-1 sm:grid-cols-2 lg:gap-y-0 lg:grid-cols-4 py-8">
             <div>
               <Image
               src={'/images/pub-1.png'}
@@ -59,6 +59,16 @@ const Publications = () => {
             <div>
                <Image
               src={'/images/pub-3.png'}
+              width={300}
+              height={300}
+              alt="image"
+              className="shadow-lg"
+            />
+            </div>
+
+            <div>
+               <Image
+              src={'/images/ran.jpg'}
               width={300}
               height={300}
               alt="image"
