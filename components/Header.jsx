@@ -1,15 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import logo from "@/public/logo.png";
 import { CiCalendarDate } from "react-icons/ci";
-import mrlogo from "@/public/mrlogo.png";
 export const Header = () => {
   return (
     <div className="w-full px-5 lg:px-10 border-b">
       <div className="container mx-auto w-full">
         <div className="flex flex-row justify-between items-center">
            <div className="flex flex-row items-center gap-x-2">
-            <Image src={logo} alt="logo" width={150} height={150} className="" />
+            <Image src={"/logo.png"} alt="logo" width={150} height={150} className="" />
 
              <div>
                 <Image
@@ -32,7 +30,7 @@ export const Header = () => {
             width={200}
             alt="Image"
           />
-          <Image src={mrlogo} width={250} height={250}  />
+          <Image src={"/mrlogo.png"} width={250} height={250}  />
  
            </div>
         </div> 

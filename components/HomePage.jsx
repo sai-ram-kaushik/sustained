@@ -4,7 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import Button from "./Button";
 import TransitionEffect from "./TransitionEffect";
 import Image from "next/image";
-import { more } from "@/data/more";
+import { more } from "../data/more";
 const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
   const { title, location, organized, buttonTitle, image } = homePage;
   const { conferenceTitle, content } = aboutConference;

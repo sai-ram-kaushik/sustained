@@ -1,8 +1,7 @@
 'use client';
 
-import data from "@/data/call-for-papers.json";
-import TransitionEffect from "@/components/TransitionEffect";
-import { guidlines } from "@/constants";
+import data from "../../data/call-for-papers.json";
+import { guidlines } from "../../constants/index";
 
 
 const CallForPapers = () => {

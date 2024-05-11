@@ -1,10 +1,6 @@
 "use client";
 import React, { useState, useTransition } from "react";
-import Image from "next/image";
-import sponsor_image from "@/public/sponsor.svg";
-import TransitionEffect from "@/components/TransitionEffect";
-import TabButton from "@/components/TabButton";
-import { sponsorships} from "@/data/sponsorship.js";
+import { sponsorships} from "../../data/sponsorship.js";
 import { useEffect } from "react";
 const SponsorshipProposal = () => {
 

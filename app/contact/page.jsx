@@ -1,6 +1,6 @@
 import React from 'react'
-import { ContactForm } from '@/components/Contact'
-import { RenderMap } from '@/components/RenderMap'
+import { ContactForm } from '../../components/Contact'
+import { RenderMap } from '../../components/RenderMap'
 
 const page = () => {
   return (

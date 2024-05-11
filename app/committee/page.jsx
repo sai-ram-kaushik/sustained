@@ -1,5 +1,5 @@
 import React from "react";
-import data from "@/data/organizing-committee.json";
+import data from "../../data/organizing-committee.json"
 import {
   accommodation,
   chief_patrons,
@@ -23,7 +23,6 @@ import {
   conference,
   worshop
 } from "../../constants";
-import TransitionEffect from "@/components/TransitionEffect";
 const Committee = () => {
   const {
     organizingCommittee: { title },

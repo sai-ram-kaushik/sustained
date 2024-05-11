@@ -1,8 +1,7 @@
 import React from "react";
-import data from "@/data/conference-theme.json";
-import TransitionEffect from "@/components/TransitionEffect";
-import Track from "@/components/Track";
-import { tracks } from "@/data/track";
+import data from "../../data/conference-theme.json";
+import Track from "../../components/Track";
+import { tracks } from "../../data/track";
 
 
 const ConferenceTheme = () => {
