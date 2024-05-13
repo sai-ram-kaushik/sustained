@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React, { useState } from 'react';
+import axios from "axios"
 export const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -19,7 +20,10 @@ export const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // You can handle form submission logic here
+    axios.post('http://localhost:3000/api/contact',{
+       formData,
+    })
+    .then((data) => console.log(data))
   };
 
   return (
