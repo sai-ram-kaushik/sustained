@@ -37,12 +37,12 @@ const Registration = () => {
                   <tr>Foreigner</tr>
                  </td>
                  <td>
-                  <tr>1000 INR</tr>
+                  <tr>10000 INR</tr>
                   <tr>350 USD</tr>
                  </td>
                  <td>
-                  <tr>1000 INR</tr>
-                  <tr>400 USD</tr>
+                  <tr>11000 INR</tr>
+                  <tr>450 USD</tr>
                  </td>
                </tr>
                <tr className="text-black font-semibold text-md">
