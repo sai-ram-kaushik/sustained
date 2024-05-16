@@ -1,9 +1,12 @@
-import React from "react";
+"use client"
+
+import React, { useState } from "react";
 import data from "../../data/organizing-committee.json"
 import {
   accommodation,
   chief_patrons,
   co_convenor,
+  covenors,
   co_patrons,
   conference_chair,
   discipline,
@@ -23,21 +26,37 @@ import {
   conference,
   worshop
 } from "../../constants";
+// import adData from "../../data/advisory-committee.json"
 const Committee = () => {
+
   const {
-    organizingCommittee: { title },
+    organizingCommittee: { title: organizingCommitteeTitle },
   } = data;
+
+  // const {
+  //   advisoryCommittee: {title: advisoryCommitteeTitle}
+  // } = adData
+
+  const [activeTab, setActiveTab] = useState("organizingCommittee");
+
+
+
   return (
     <div className="px-5 lg:px-10 py-10">
       <div className="container mx-auto">
     
-        <div className="flex items-center justify-center">
-          <h3>{title}</h3>
+        {/* <div className="flex items-center justify-center">
+          <h3>{activeTab === "organizingCommittee" ? organizingCommitteeTitle : advisoryCommitteeTitle}</h3>
+        </div> */}
+        <div className="flex items-center justify-center mt-5 gap-5">
+          <h3 className={`text-secondary ${activeTab === "organizingCommittee" ? "border-b-2 border-b-secondary" : "border-b-2 border-transparent"}`} onClick={() => setActiveTab("organizingCommittee")}>Organizing Committee</h3>
+          <h3 className={`text-secondary ${activeTab === "advisoryCommittee" ? "border-b-2 border-b-secondary" : "border-b-2 border-transparent"}`} onClick={() => setActiveTab("advisoryCommittee")}>Advisory Committee</h3>
         </div>
 
         <div className="flex items-start justify-start mt-5">
           <h3 className="text-secondary">Chief Patron</h3>
         </div>
+
 
         <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {chief_patrons.map((list, index) => (
@@ -82,7 +101,20 @@ const Committee = () => {
         </div>
 
         <div className="flex items-start justify-start mt-5">
-          <h3 className="text-secondary">Conference Chair & Convener</h3>
+          <h3 className="text-secondary">Technical Chair</h3>
+        </div>
+
+        <div className="flex flex-col gap-5 mt-5">
+            <div className="flex gap-3 items-center">
+              <p className="text-xl text-center font-unbounded">
+              Prof. (Dr.) Geeta Nijhawan,
+              </p>
+              <p className="text-center text-secondary ">Associate Dean SET, MRIIRS, Faridabad</p>
+            </div>
+        </div>
+
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">Conference Chair</h3>
         </div>
 
         <div className="flex item-start justify-start gap-10 lg:gap-20 mt-5">
@@ -96,8 +128,26 @@ const Committee = () => {
           ))}
         </div>
 
+
         <div className="flex items-start justify-start mt-5">
-          <h3 className="text-secondary">Co - Convener</h3>
+          <h3 className="text-secondary">Convenors</h3>
+        </div>
+
+        <div className="flex flex-col gap-5 mt-5">
+          {covenors.map((list, index) => (
+            <div key={index} className="flex gap-3 items-center">
+              <p className="text-lg text-center font-unbounded">
+                {list.label},
+              </p>
+              <p className="text-center text-secondary">{list.designation}</p>
+            </div>
+          ))}
+        </div>
+
+
+
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">Co - Convenors</h3>
         </div>
 
         <div className="flex flex-col gap-5 mt-5">

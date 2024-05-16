@@ -23,7 +23,7 @@ export const menuList = [
     { label: "Committee", path: "/committee", icon: <FaBuilding /> },
     { label: "Download", path: "/download", icon: <FaBuilding /> },
     { label: "Sponsorship", path: "/sponsorship", icon: <FaBuilding /> },
-    { label: "Contact", path: "/contact", icon: <FaBuilding /> },
+    { label: "Contact", path: "https://forms.gle/MNdMxLQqTz4djqtNA", icon: <FaBuilding /> },
   ];
 
 export const chief_patrons = [
@@ -102,6 +102,26 @@ export const conference_chair = [
     designation: "Professor, Department of Mechanical Engineering",
   },
 ];
+
+export const covenors = [
+  {
+    label: "Prof. (Dr.) Manoj Nayak",
+    designation: "HoD (ME) MRIIRS, Faridabad",
+  },
+  {
+    label: "Prof. (Dr.) Leena Gopinathan",
+    designation: "HoD (EEE) MRIIRS, Faridabad",
+  },
+  {
+    label: "Prof. (Dr.) Abhiruchi Passi",
+    designation: "HoD (ECE) MRIIRS, Faridabad",
+  },
+  {
+    label: "Prof. (Dr.) Senthil Vadivel T.",
+    designation: "HoD (CE) MRIIRS, Faridabad",
+  },
+];
+
 
 export const co_convenor = [
   {

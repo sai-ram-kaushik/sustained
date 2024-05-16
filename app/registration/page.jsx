@@ -31,7 +31,7 @@ const Registration = () => {
                 <th>Non-IEEE Member</th>
               </tr>
                <tr className="text-black font-semibold text-md">
-                 <td>Country</td>
+                 <td>Industry Person</td>
                  <td>
                   <tr>Indian</tr>
                   <tr>Foreigner</tr>
@@ -42,7 +42,7 @@ const Registration = () => {
                  </td>
                  <td>
                   <tr>11000 INR</tr>
-                  <tr>450 USD</tr>
+                  <tr>400 USD</tr>
                  </td>
                </tr>
                <tr className="text-black font-semibold text-md">
@@ -71,19 +71,19 @@ const Registration = () => {
                   <tr>200 USD</tr>
                  </td>
                  <td>
-                  <tr>7500 INR</tr>
-                  <tr>3200 USD</tr>
+                  <tr>7000 INR</tr>
+                  <tr>250 USD</tr>
                  </td>
                </tr>
                <tr className="text-black font-semibold text-md">
-                 <td>Attendee ONly</td>
+                 <td>Attendee Only</td>
                  <td>
                   <tr>Indian</tr>
                   <tr>Foreigner</tr>
                  </td>
                  <td>
                   <tr>2000 INR</tr>
-                  <tr>250 USD</tr>
+                  <tr>50 USD</tr>
                  </td>
                  <td>
                   <tr>3000 INR</tr>

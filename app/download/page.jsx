@@ -15,10 +15,10 @@ const downloads = [
     link:'https://docs.google.com/presentation/d/1ObtQhxwQzPcVeQjhdyXGyvxvJeHnfnhv/edit?usp=sharing&ouid=117398821527591168210&rtpof=true&sd=true'
    },
 
-   {  
-    name:"Program Schedule",
-    link:'/call-for-papers'
-   },
+  //  {  
+  //   name:"Program Schedule",
+  //   link:'/call-for-papers'
+  //  },
 
    {  
     name:"Guidelines",
