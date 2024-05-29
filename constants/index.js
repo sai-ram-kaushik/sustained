@@ -20,7 +20,7 @@ export const menuList = [
       icon: <FaBuilding />,
     },
     { label: "Registration", path: "/registration", icon: <FaBuilding /> },
-    { label: "Committee", path: "/committee", icon: <FaBuilding /> },
+    { label: "Committee", path: "/organizing-committee", icon: <FaBuilding /> },
     { label: "Download", path: "/download", icon: <FaBuilding /> },
     { label: "Sponsorship", path: "/sponsorship", icon: <FaBuilding /> },
     { label: "Contact", path: "https://forms.gle/MNdMxLQqTz4djqtNA", icon: <FaBuilding /> },

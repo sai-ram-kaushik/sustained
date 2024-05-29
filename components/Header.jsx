@@ -7,14 +7,14 @@ export const Header = () => {
       <div className="container mx-auto w-full">
         <div className="flex flex-row justify-between items-center">
            <div className="flex flex-row items-center gap-x-2">
-            <Image src={"/logo.png"} alt="logo" width={150} height={150} className="" />
+            <Image src={"/naac.jpeg"} alt="logo" width={250} height={250} className="" />
 
              <div>
                 <Image
                 width={150}
                 height={50}
                 alt="image"
-                src={'/IEEE.webp'}
+                src={'/set.jpg'}
               />
              </div>
            </div>
@@ -26,11 +26,12 @@ export const Header = () => {
            <div className="flex flex-row gap-x-2">
             <Image
             src={'/images/mr-2-pre.png'}
-            height={100}
+            height={10}
             width={200}
             alt="Image"
           />
-          <Image src={"/mrlogo.png"} width={250} height={250}  />
+          <Image src={"/IEEE.webp"} width={120} height={100}  />
+          <Image src={"/logo.png"} width={100} height={150}  />
  
            </div>
         </div> 

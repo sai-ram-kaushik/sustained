@@ -1,0 +1,263 @@
+{
+  "advisoryCommittee": {
+    "title": "Advisory Committee",
+    "data": [
+      {
+        "name": "A.Chowdhury",
+        "desc": "SVNIT Surat, India."
+      },
+      {
+        "name": "Abhinav Prasad Gupta",
+        "desc": "Percona, USA."
+      },
+      {
+        "name": "Aditya Maheshwari",
+        "desc": "Scantinel Photonics GmbH, Germany."
+      },
+      {
+        "name": "Alsajir M Basheer",
+        "desc": "United Arab Emirates University, UAE."
+      },
+      {
+        "name": "Amit Trivedi",
+        "desc": "NCCBM, India."
+      },
+      {
+        "name": "Andrey V. Kuzmin",
+        "desc": "Institute for Engineering Thermal Physics, Ukraine."
+      },
+      {
+        "name": "Antonio Luque",
+        "desc": "University of Seville, Spain"
+      },
+      {
+        "name": "Anu Gupta",
+        "desc": "APRW, Singapore."
+      },
+      {
+        "name": "Anurag Goyal",
+        "desc": "Liniva Consultants, India."
+      },
+      {
+        "name": "Arshdeep Tinna",
+        "desc": "Thomson Reuters, Canada."
+      },
+      {
+        "name": "Arunachalam S.",
+        "desc": "University of Technology and Applied Sciences, Oman."
+      },
+      {
+        "name": "Ayodeji Salau",
+        "desc": "Afe Babalola University, Nigeria."
+      },
+      {
+        "name": "Biju Nair",
+        "desc": "Indie Semiconductor, USA."
+      },
+      {
+        "name": "Brijesh Kumar",
+        "desc": "MRIIRS Faridabad"
+      },
+      {
+        "name": "Brijesh Singh",
+        "desc": "NCCBM, India."
+      },
+      {
+        "name": "Devika Sethu",
+        "desc": "MILA University, Malaysia."
+      },
+      {
+        "name": "G. L. Khanna",
+        "desc": "MRIIRS, Faridabad"
+      },
+      {
+        "name": "Gaurav Aggarwal",
+        "desc": "Amity University Tashkent."
+      },
+      {
+        "name": "Gurjeet Chawla",
+        "desc": "MRIIRS, Faridabad"
+      },
+      {
+        "name": "Hazi Mohammad Azamathulla",
+        "desc": "University of West Indies at St. Augustine, Trinidad and Tobago."
+      },
+      {
+        "name": "Indu Maheshwari",
+        "desc": "NPTI, Badarpur, India."
+      },
+      {
+        "name": "J. Ramkumar",
+        "desc": "Indian Institute of Technology Kanpur, India."
+      },
+      {
+        "name": "Jahangir Hossain",
+        "desc": "University of Technology Sydney, Australia."
+      },
+      {
+        "name": "Jerzy Szymanski",
+        "desc": "Casimir Pulaski University Radom, Poland."
+      },
+      {
+        "name": "Kaan Yetilmezsoy",
+        "desc": "Yildiz Technical University, Turkey."
+      },
+      {
+        "name": "Kamal Jha",
+        "desc": "IIIT Vadodara, India."
+      },
+      {
+        "name": "Kishor Kumar Sadasivuni",
+        "desc": "Centre for Advanced Materials, Qatar University."
+      },
+      {
+        "name": "M K Paswan",
+        "desc": "National Institute of Technology Jamshedpur, India."
+      },
+      {
+        "name": "Manoj Kulshrestha",
+        "desc": "JK Cement, India."
+      },
+      {
+        "name": "Marta Zurek Mortka",
+        "desc": "Institute for Sustainable Technologies, Poland"
+      },
+      {
+        "name": "Milkias Berhanu",
+        "desc": "Adama University, Ethiopia."
+      },
+      {
+        "name": "Moharram Khan",
+        "desc": "Umaru Musa Ya'adua University, Nigeria."
+      },
+      {
+        "name": "Mulugeta Daniel",
+        "desc": "Wachemo University, Ethiopia."
+      },
+      {
+        "name": "Muluneh Lemma",
+        "desc": "Arba Mich University, Ethiopia."
+      },
+      {
+        "name": "Mumtaz Ahmad Quraishi",
+        "desc": "King Fahd University of Petroleum and Minerals, Saudi Arabia."
+      },
+      {
+        "name": "N Kumaresan",
+        "desc": "NIT Tiruchirapalli, India."
+      },
+      {
+        "name": "Nandini Srivastava",
+        "desc": "MRIIRS Faridabad."
+      },
+      {
+        "name": "Neelofer Afzal",
+        "desc": "Jamia Millia Islamia, India."
+      },
+      {
+        "name": "Ofelia del Carmen Hernández Negrete",
+        "desc": "Universidad de Sonora, Mexico."
+      },
+      {
+        "name": "Pallav Gupta",
+        "desc": "Amity University, Noida, India."
+      },
+      {
+        "name": "Pradeep Kumar Goyal",
+        "desc": "Delhi Technological University, India."
+      },
+      {
+        "name": "Pradeep Kumar",
+        "desc": "CSIR-Central Road Research Institute, India."
+      },
+      {
+        "name": "Pramod Kumar Singhal",
+        "desc": "MITS, Gwalior, India."
+      },
+      {
+        "name": "R C Bansal",
+        "desc": "University of Sharjah, United Arab Emirates."
+      },
+      {
+        "name": "Rabie A. Ramadan",
+        "desc": "Cairo University, Egypt."
+      },
+      {
+        "name": "Rajesh Purohit",
+        "desc": "MANIT Bhopal, India."
+      },
+      {
+        "name": "Rakesh Sehgal",
+        "desc": "National Institute of Technology Hamirpur, India."
+      },
+      {
+        "name": "Ritunesh Kumar",
+        "desc": "IIT Indore, India."
+      },
+      {
+        "name": "Rashima Mahajan",
+        "desc": "MRIIRS Faridabad"
+      },
+      {
+        "name": "Rohit Tiwari",
+        "desc": "University of New South Wales, Australia"
+      },
+      {
+        "name": "S.P. Harsha",
+        "desc": "Indian Institute of Technology Roorkee, India."
+      },
+      {
+        "name": "Sandip Gosh",
+        "desc": "IIT (BHU) Varanasi, India"
+      },
+      {
+        "name": "Sanjeet Dwivedi",
+        "desc": "RDT Engineers, Denmark."
+      },
+      {
+        "name": "Sarita Sachdeva",
+        "desc": "MRIIRS Faridabad"
+      },
+      {
+        "name": "Sarthak Singhal",
+        "desc": "MNNIT Allahabad, India."
+      },
+      {
+        "name": "Shahnaz Ayub",
+        "desc": "BIET, Jhansi, India."
+      },
+      {
+        "name": "Shailendra Sinha",
+        "desc": "Institute of Engineering Technology, India."
+      },
+      {
+        "name": "Shailesh Mani Pandey",
+        "desc": "National Institute of Technology Patna, India."
+      },
+      {
+        "name": "Sindhu Richard",
+        "desc": "IBS Software Services, Sydney, Australia."
+      },
+      {
+        "name": "Syed Afzal Murtaza Rizvi",
+        "desc": "Jamia Millia Islamia, New Delhi, India."
+      },
+      {
+        "name": "Tapas Kumar",
+        "desc": "MRIIRS, Faridabad"
+      },
+      {
+        "name": "Thomas Philip",
+        "desc": "Petrotech, Qatar."
+      },
+      {
+        "name": "Uday S Dixit",
+        "desc": "Indian Institute of Technology Gandhinagar, India."
+      },
+      {
+        "name": "Varun Sharma",
+        "desc": "Indian Institute of Technology Roorkee, India."
+      }
+    ]
+  }
+}

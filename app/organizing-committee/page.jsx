@@ -1,6 +1,5 @@
 "use client"
 
-import React, { useState } from "react";
 import data from "../../data/organizing-committee.json"
 import {
   accommodation,
@@ -33,11 +32,6 @@ const Committee = () => {
     organizingCommittee: { title: organizingCommitteeTitle },
   } = data;
 
-  // const {
-  //   advisoryCommittee: {title: advisoryCommitteeTitle}
-  // } = adData
-
-  const [activeTab, setActiveTab] = useState("organizingCommittee");
 
 
 
@@ -45,12 +39,8 @@ const Committee = () => {
     <div className="px-5 lg:px-10 py-10">
       <div className="container mx-auto">
     
-        {/* <div className="flex items-center justify-center">
-          <h3>{activeTab === "organizingCommittee" ? organizingCommitteeTitle : advisoryCommitteeTitle}</h3>
-        </div> */}
         <div className="flex items-center justify-center mt-5 gap-5">
-          <h3 className={`text-secondary ${activeTab === "organizingCommittee" ? "border-b-2 border-b-secondary" : "border-b-2 border-transparent"}`} onClick={() => setActiveTab("organizingCommittee")}>Organizing Committee</h3>
-          <h3 className={`text-secondary ${activeTab === "advisoryCommittee" ? "border-b-2 border-b-secondary" : "border-b-2 border-transparent"}`} onClick={() => setActiveTab("advisoryCommittee")}>Advisory Committee</h3>
+          <h3 className={`text-secondary `} >Organizing Committee</h3>
         </div>
 
         <div className="flex items-start justify-start mt-5">

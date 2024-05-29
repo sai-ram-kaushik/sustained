@@ -5,11 +5,14 @@ import { IoCloseSharp } from "react-icons/io5";
 import { RiMenuFill } from "react-icons/ri";
 import { menuList } from "../constants";
 import Link from "next/link";
+import SelectionModal from "./SelectionModal";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleChange = () => {
     setNav(!nav);
   };
+
+  const [showModal, setShowModal] = useState(false); 
 
   return (
     <>
@@ -22,11 +25,18 @@ const NavBar = () => {
             {menuList.map((list, index) => (
               <ul
                 key={index}
-                className="text-lg font-normal duration-200 cursor-pointer">
-                <Link href={list.path}>
-                  {" "}
+                className={`text-lg font-normal duration-200 cursor-pointer`}>
+                {list.label === "Committee" ? (
+                  <div onMouseEnter={() => setShowModal(true)} >
+                      {showModal && <SelectionModal showModal={showModal} setShowModal={setShowModal}/>}
+                      <li>{list.label} v</li>
+                  </div>
+                ) : (
+
+                  <Link href={list.path}>
                   <li>{list.label}</li>
                 </Link>
+                )}
               </ul>
             ))}
           </div>
