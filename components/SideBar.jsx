@@ -25,11 +25,11 @@ const NavBar = () => {
             {menuList.map((list, index) => (
               <ul
                 key={index}
-                className={`text-lg font-normal duration-200 cursor-pointer`}>
+                className={`text-[17px] font-normal duration-200 cursor-pointer`}>
                 {list.label === "Committee" ? (
                   <div onMouseEnter={() => setShowModal(true)} >
                       {showModal && <SelectionModal showModal={showModal} setShowModal={setShowModal}/>}
-                      <li>{list.label} v</li>
+                      <li>{list.label}</li>
                   </div>
                 ) : (
 

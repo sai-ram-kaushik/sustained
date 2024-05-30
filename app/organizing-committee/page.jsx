@@ -91,7 +91,7 @@ const Committee = () => {
         </div>
 
         <div className="flex items-start justify-start mt-5">
-          <h3 className="text-secondary">Technical Chair</h3>
+          <h3 className="text-secondary">Technical Program Chair</h3>
         </div>
 
         <div className="flex flex-col gap-5 mt-5">

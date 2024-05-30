@@ -6,61 +6,63 @@ export const Header = () => {
     <div className="w-full px-5 lg:px-10 border-b">
       <div className="container mx-auto w-full">
         <div className="flex flex-row justify-between items-center">
-           <div className="flex flex-row items-center gap-x-2">
+          <div className="flex flex-row items-center gap-x-2 border">
             <Image src={"/naac.jpeg"} alt="logo" width={250} height={250} className="" />
 
-             <div>
-                <Image
-                width={150}
+            <div>
+              <Image
+                width={110}
                 height={50}
                 alt="image"
                 src={'/set.jpg'}
               />
-             </div>
-           </div>
+            </div>
+          </div>
 
-           <div>
+
+          <div className="flex flex-row gap-x-2 items-center">
+            <Image className="h-fit"
+              src={'/images.jpeg'}
+              height={10}
+              width={200}
+              alt="Image"
+            />
+            <Image src={"/IEEE.webp"} width={120} height={100} className="h-fit" />
+            <Image src={"/logo.png"} width={100} height={120} className="h-fit" />
+
+          </div>
+        </div>
+        <div className="flex flex-col items-center text-center gap-3">
+          <div>
             <h2 className="text-secondary text-5xl font-semibold">SUSTAINED - 2024</h2>
-           </div>
+          </div>
+          <div className="flex flex-col lg:flex-row items-center gap-2 lg:justify-center w-full">
 
-           <div className="flex flex-row gap-x-2">
-            <Image
-            src={'/images/mr-2-pre.png'}
-            height={10}
-            width={200}
-            alt="Image"
-          />
-          <Image src={"/IEEE.webp"} width={120} height={100}  />
-          <Image src={"/logo.png"} width={100} height={150}  />
- 
-           </div>
-        </div> 
-        <div className="flex flex-col lg:flex-row items-center gap-2 lg:justify-between w-full">
-  
-          <div className="flex flex-col gap-2 items-center">
-        
-          
-            <p className='text-green-700 text-3xl font-semibold text-center w-full max-w-6xl'>
-              International Conference on Sustainability and Technological Advancements in Engineering Domain
-            </p>
-            <div className="flex flex-col gap-y-2">
-             <p className="text-center font-semibold text-md  mt-3">
-              School of Engineering & Technology,
-               <br/>
-               Manav Rachna International Institute of Research and Studies, Faridabad
-             </p>
-              <div className="flex items-center justify-center gap-x-3">
-            
+            <div className="flex flex-col gap-2 items-center">
+
+
+              <p className='text-green-700 text-3xl font-semibold text-center w-full max-w-6xl'>
+                International Conference on Sustainability and Technological Advancements in Engineering Domain
+              </p>
+              <div className="flex flex-col gap-y-2">
+                <p className="text-center font-semibold text-md  mt-3">
+                  School of Engineering & Technology,
+                  <br />
+                  Manav Rachna International Institute of Research and Studies, Faridabad
+                </p>
+                <div className="flex items-center justify-center gap-x-3">
+
                   <p className="flex items-center gap-2 text-xl font-bold">
                     <span>
                       <CiCalendarDate />
                     </span>
-                  13<sup>th</sup> - 14<sup>th</sup> December, 2024
-                </p>
+                    13<sup>th</sup> - 14<sup>th</sup> December, 2024
+                  </p>
+                </div>
               </div>
-          </div>
-          </div>
+            </div>
 
+          </div>
         </div>
       </div>
     </div>

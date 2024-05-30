@@ -53,7 +53,7 @@ export const ContactForm = () => {
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-black text-center font-semibold">
+          <label htmlFor="email" className="block text-sm font-medium text-black text-center">
             Email
           </label>
           <input
