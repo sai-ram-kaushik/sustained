@@ -5,9 +5,9 @@ export const Header = () => {
   return (
     <div className="w-full px-5 lg:px-10 border-b">
       <div className="container mx-auto w-full">
-        <div className="flex flex-row justify-between items-center">
-          <div className="flex flex-row items-center gap-x-2 border">
-            <Image src={"/naac.jpeg"} alt="logo" width={250} height={250} className="" />
+        <div className="flex flex-row justify-between items-center border-b-4 border-secondary ">
+          <div className="flex flex-row items-center gap-x-2">
+            <Image src={"/naac.jpeg"} alt="logo" width={250} height={250} className="h-fit" />
 
             <div>
               <Image
@@ -15,24 +15,25 @@ export const Header = () => {
                 height={50}
                 alt="image"
                 src={'/set.jpg'}
+                className="h-fit lg:block hidden"
               />
             </div>
           </div>
 
 
           <div className="flex flex-row gap-x-2 items-center">
-            <Image className="h-fit"
-              src={'/images.jpeg'}
-              height={10}
-              width={200}
+            <Image className="h-fit "
+              src={'/IEEElogo.webp'}
+              height={100}
+              width={180}
               alt="Image"
             />
-            <Image src={"/IEEE.webp"} width={120} height={100} className="h-fit" />
-            <Image src={"/logo.png"} width={100} height={120} className="h-fit" />
+            <Image src={"/IEEE.webp"} width={70} height={100} className="h-fit lg:block hidden" />
+            <Image src={"/logo.png"} width={100} height={120} className="h-fit lg:block hidden" />
 
           </div>
         </div>
-        <div className="flex flex-col items-center text-center gap-3">
+        <div className="flex flex-col items-center text-center gap-3 mt-10">
           <div>
             <h2 className="text-secondary text-5xl font-semibold">SUSTAINED - 2024</h2>
           </div>
