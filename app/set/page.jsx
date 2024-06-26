@@ -86,7 +86,6 @@ const AboutSet = () => {
         <div className="flex flex-col gap-3 items-center justify-center mt-5">
           <h3 className="text-center">{aboutECE.title}</h3>
           <p>{aboutECE.content}</p>
-            <p>{aboutEEE.content}</p>
            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-3 mt-3 mb-5">
              <Image
                src={"/images/ece-1.jpg"}

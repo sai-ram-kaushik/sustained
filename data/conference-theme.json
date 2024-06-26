@@ -1,6 +1,7 @@
 {
   "conferenceTheme": {
     "title": "Conference Theme",
+    "subtitle": "The overarching theme of the conference centers on fostering innovative solutions and promoting cutting-edge research that drive both sustainability and technological advancement. This theme underscores the importance of integrating sustainable practices with technological progress to address global challenges. By bringing together experts from diverse fields, the conference aims to facilitate the exchange of knowledge and ideas that will lead to the development of eco-friendly technologies and sustainable engineering practices. The goal is to create a future where technological innovations not only enhance human life but also preserve the environment, ensuring a balanced and resilient ecosystem for generations to come.",
     "themes": [
       {
         "label": "Track 1",

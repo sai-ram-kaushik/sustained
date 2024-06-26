@@ -19,19 +19,19 @@ const Registration = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-center">
           <h2>
-            Registration <span>Guidelines</span>
+            Registration Guidelines
           </h2>
         </div>
         <div className="mt-14 justify-center flex text-gray-600 ">
           <table>
-              <tr className="text-lg font-bold text-black">
+              <tr className="text-lg font-bold text-[#bd202b]">
                 <th>Registration Type</th>
                 <th>Country</th>
                 <th>IEEE Member</th>
                 <th>Non-IEEE Member</th>
               </tr>
-               <tr className="text-black font-semibold text-md">
-                 <td>Industry Person</td>
+               <tr className="text-black text-md">
+                 <td className="font-semibold">Industry Person</td>
                  <td>
                   <tr>Indian</tr>
                   <tr>Foreigner</tr>
@@ -45,8 +45,8 @@ const Registration = () => {
                   <tr>400 USD</tr>
                  </td>
                </tr>
-               <tr className="text-black font-semibold text-md">
-                 <td>Faculty Members</td>
+               <tr className="text-black text-md">
+                 <td className="font-semibold">Faculty Members</td>
                  <td>
                   <tr>Indian</tr>
                   <tr>Foreigner</tr>
@@ -60,8 +60,8 @@ const Registration = () => {
                   <tr>350 USD</tr>
                  </td>
                </tr>
-               <tr className="text-black font-semibold text-md">
-                 <td>Students</td>
+               <tr className="text-black text-md">
+                 <td className="font-semibold">Students</td>
                  <td>
                   <tr>Indian</tr>
                   <tr>Foreigner</tr>
@@ -75,8 +75,8 @@ const Registration = () => {
                   <tr>250 USD</tr>
                  </td>
                </tr>
-               <tr className="text-black font-semibold text-md">
-                 <td>Attendee Only</td>
+               <tr className="text-black text-md">
+                 <td className="font-semibold">Attendee Only</td>
                  <td>
                   <tr>Indian</tr>
                   <tr>Foreigner</tr>
@@ -106,7 +106,7 @@ const Registration = () => {
               An extended version of the presented paper will be considered for publication in <span className="text-black font-extrabold">various journals </span> which all are SCOPUS indexed.<span className="text-black font-extrabold"> *Additional Fees of INR 3000 </span>will be charged for the publication of extended versions of manuscripts according to the Journal applicable to the student category only.
             </li>
             <li>
-             . An extra page charge of ₹ 1000/- INR per page for Indian authors and $ 50 per page for international authors will be chargeable from the authors during the registration process.
+             An extra page charge of ₹ 1000/- INR per page for Indian authors and $ 50 per page for international authors will be chargeable from the authors during the registration process.
             </li>
           </ul>
         </div>

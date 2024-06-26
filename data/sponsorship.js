@@ -20,7 +20,7 @@ export const sponsorships = [
    },
    
    {
-     title:'Gold SPONSORSHIP: 1,00,000 INR ',
+     title:'GOLD SPONSORSHIP: 1,00,000 INR ',
      data:[
     	'Company logo and link on the Conference Website.',
 	    'Acknowledgement during the Inaugural Ceremony.',

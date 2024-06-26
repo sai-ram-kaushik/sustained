@@ -44,7 +44,7 @@ const Committee = () => {
         </div>
 
         <div className="flex items-start justify-start mt-5">
-          <h3 className="text-secondary">Chief Patron</h3>
+          <h3 className="text-secondary">Chief Patrons</h3>
         </div>
 
 
@@ -60,7 +60,7 @@ const Committee = () => {
         </div>
 
         <div className="flex items-start justify-start mt-5">
-          <h3 className="text-secondary">Patron</h3>
+          <h3 className="text-secondary">Patrons</h3>
         </div>
 
         <div className="flex flex-col items-start justify-start gap-5 mt-5">
@@ -79,7 +79,7 @@ const Committee = () => {
           <h3 className="text-secondary">General Chair</h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {general_chair.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-xl text-center font-unbounded">
@@ -94,7 +94,7 @@ const Committee = () => {
           <h3 className="text-secondary">Technical Program Chair</h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
             <div className="flex gap-3 items-center">
               <p className="text-xl text-center font-unbounded">
               Prof. (Dr.) Geeta Nijhawan,
@@ -123,7 +123,7 @@ const Committee = () => {
           <h3 className="text-secondary">Convenors</h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {covenors.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
@@ -140,7 +140,7 @@ const Committee = () => {
           <h3 className="text-secondary">Co - Convenors</h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {co_convenor.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
@@ -159,7 +159,7 @@ const Committee = () => {
           </h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {international_collaboration.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
@@ -172,7 +172,7 @@ const Committee = () => {
           <h3 className="text-secondary">Industrial Collaboration Committee</h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {industrial.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
@@ -186,7 +186,7 @@ const Committee = () => {
           <h3 className="text-secondary">Publication Committee</h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {review.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
@@ -199,7 +199,7 @@ const Committee = () => {
           <h3 className="text-secondary">Conference Oversight Committe</h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {conference.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>
@@ -211,7 +211,7 @@ const Committee = () => {
           <h3 className="text-secondary">Workshop and Session Committe</h3>
         </div>
 
-        <div className="flex flex-col gap-5 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {worshop.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">{list.label}</p>

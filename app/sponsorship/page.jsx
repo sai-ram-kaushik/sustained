@@ -162,7 +162,6 @@ const SponsorshipProposal = () => {
 
         <div className="flex flex-col items-center justify-center gap-10 lg:gap-28 mt-10">
           <div className="flex flex-col items-center lg:items-start text-justify gap-5 text-lg">
-           <p className="text-lg mb-3"> Expected Gathering and Outcome:</p>
             <p>
               SUSTAINED-2024 is a two-day event held on December 13-14, 2024, and hosted by the School of Engineering and Technology, MRIIRS, Faridabad. The event will include oral and poster presentations of research papers grouped into parallel tracks. Keynote talks from experts and panel discussions are also included in the program schedule of the conference.
             </p>
@@ -180,37 +179,37 @@ const SponsorshipProposal = () => {
                   <th>AMT. IN INDIAN RS</th>
                   <th>REMARKS</th>
                </tr>
-                <tr className="text-blue-700 text-xl">
+                <tr className="text-md">
                   <th>Platinum Sponsor	2,00,000/-	</th>
                   <th>2,00,000/-	</th>
                   <th></th>
                 </tr>
-                <tr className="text-blue-700 text-xl">
+                <tr className="text-md">
                   <th>Gold Sponsor		</th>
                   <th>1,00,000/-	</th>
                   <th></th>
                 </tr>
-                <tr className="text-blue-700 text-xl">
+                <tr className="text-md">
                   <th>Silver Sponsor</th>
                   <th>50,000/-</th>
                   <th></th>
                 </tr>
-                <tr className="text-blue-700 text-xl">
+                <tr className="text-md">
                   <th>Technical Session Sponsorship</th>
                   <th>50,000/-	</th>
                   <th>(per day)</th>
                 </tr>
-                <tr className="text-blue-700 text-xl">
+                <tr className="text-md">
                   <th>Conference Banquet dinner</th>
                   <th>1,50,000/-</th>
                   <th>on Dec 13, 2024</th>
                 </tr>
-                <tr className="text-blue-700 text-xl">
+                <tr className="text-md">
                   <th>Delegate Kits</th>
                   <th>1,50,000/-</th>
                   <th></th>
                 </tr>
-                <tr className="text-blue-700 text-xl">
+                <tr className="text-md">
                   <th>High tea & Lunch</th>
                   <th>50,000/-</th>
                   <th>(per day)</th>
@@ -225,7 +224,7 @@ const SponsorshipProposal = () => {
         <div className="flex flex-col gap-y-3 py-10 mt-11">
            {sponsorships.map(item => (
               <div className="mb-3 pb-3">
-                <p className="text-xl text-black font-semibold">{item.title}</p>
+                <p className="text-xl text-secondaryn font-semibold">{item.title}</p>
                 <div>
                   {item.data.map(data => (
                     <div className="flex flex-row gap-x-2 items-center mt-2">
@@ -250,8 +249,8 @@ const SponsorshipProposal = () => {
           <div className="mt-7 self-center">
             <table>
               <tr>
-                <th>Advertisement Size and Location</th>
-                <th>Rate (INR)</th>
+                <th className="text-lg">Advertisement Size and Location</th>
+                <th className="text-lg">Rate (INR)</th>
               </tr>
               <tr>
                 <th>Back Cover Page (Colour)</th>
@@ -301,11 +300,11 @@ const SponsorshipProposal = () => {
         </div>
         <div className="mt-4 py-6">
           <p>
-            <span className="text-3xl text-blue-700 font-semibold">Mode of Payment : </span>
+            <span className="text-3xl font-semibold">Mode of Payment : </span>
             All payments are to be made through DD/Cheque drawn in favour of 'Manav Rachna International Institute of Research and Studies, Faridabad, Haryana' payable at Faridabad.
           </p>
 
-          <p className="text-3xl text-blue-700 font-semibold mt-2">
+          <p className="text-xl font-semibold mt-2">
             Please feel free to contact us regarding any query on sponsorship: sustained@mriu.edu.in
           </p>
         </div>

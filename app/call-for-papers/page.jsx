@@ -29,19 +29,19 @@ const CallForPapers = () => {
           <table>
             <tbody>
               <tr >
-                <td >&nbsp;<strong>Deadline for Full Paper Submission</strong></td>
+                <td >&nbsp;Deadline for Full Paper Submission</td>
                 <td ><strong>&nbsp;30<sup>th</sup>&nbsp;July 2024</strong>&nbsp;</td>
               </tr>
               <tr>
-                <td>&nbsp;<strong>Notification of Paper Acceptance/Rejection</strong></td>
+                <td>&nbsp;Notification of Paper Acceptance/Rejectioe</td>
                 <td>&nbsp;<strong>30<sup>th</sup>&nbsp;August 2024</strong></td>
               </tr>
               <tr >
-                <td >&nbsp;<strong>Deadline for Camera-Ready Paper Submission</strong></td>
+                <td >&nbsp;Deadline for Camera-Ready Paper Submissioe</td>
                 <td >&nbsp;<strong>15<sup>th</sup>&nbsp;September 2024</strong></td>
               </tr>
               <tr >
-                <td >&nbsp;<strong>Early Registration Deadline</strong></td>
+                <td >&nbsp;Early Registration Deadline</td>
                 <td >&nbsp;<strong>30<sup>th</sup>&nbsp;September 2024</strong></td>
               </tr>
             </tbody>
@@ -50,16 +50,15 @@ const CallForPapers = () => {
 
         <div className="mt-10">
           <h3>Guidlines</h3>
-          <h4>Full Paper Submission & Guidlines</h4>
-          <div className="flex flex-col gap-2 py-6">{
+          <ol className="flex flex-col gap-2 py-6">{
             guidlines.map((item, index) => (
-              <li key={index}>{item}</li>
+              <li key={index} className="list-disc">{item}</li>
             ))
           }
-          </div>
+          </ol>
         </div>
         <div>
-          <p> IEEE Similarity / Plagiarism Policy:</p>
+          <h4> IEEE Similarity / Plagiarism Policy:</h4>
           <Link
             href={'https://www.ieee.org/publications/rights/plagiarism/plagiarism.html'}
             target="_blank"

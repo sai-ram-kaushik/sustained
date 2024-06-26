@@ -7,8 +7,6 @@ export const Header = () => {
       <div className="container mx-auto w-full">
         <div className="flex flex-row justify-between items-center border-b-4 border-secondary ">
           <div className="flex flex-row items-center gap-x-2">
-            <Image src={"/naac.jpeg"} alt="logo" width={250} height={250} className="h-fit" />
-
             <div>
               <Image
                 width={110}
@@ -18,6 +16,8 @@ export const Header = () => {
                 className="h-fit lg:block hidden"
               />
             </div>
+            <Image src={"/naac.jpeg"} alt="logo" width={250} height={250} className="h-fit" />
+
           </div>
 
 
