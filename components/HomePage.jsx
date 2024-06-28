@@ -4,6 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import Button from "./Button";
 import TransitionEffect from "./TransitionEffect";
 import Image from "next/image";
+import Carousel from "../components/Carousel";
 import { more } from "../data/more";
 const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
   const { title, location, organized, buttonTitle, image } = homePage;
@@ -42,17 +43,8 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
               <Button title="Submission Open" />
             </a>
   
-
-           <div className="rounded-xl">
-             <Image
-             
-             src={"/images/new.jpg"}
-             alt="img"
-             height={1000}
-             width={1000}
-             className="rounded-xl py-11"
-           />
-           </div>
+            
+            <Carousel/>
         </div>
 
         <div className="flex flex-col gap-3 items-center justify-center mt-10">

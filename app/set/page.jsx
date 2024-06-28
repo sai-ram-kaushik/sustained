@@ -14,7 +14,7 @@ const AboutSet = () => {
           <p>{aboutSET.content}</p>
           <div className="w-full"> 
             <Image
-              src={"/images/manav-2.jpg"}
+              src={"/new-images/front.jpg"}
               alt="img"
               width={1000}
               height={1000}
@@ -88,7 +88,7 @@ const AboutSet = () => {
           <p>{aboutECE.content}</p>
            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-3 mt-3 mb-5">
              <Image
-               src={"/images/ece-1.jpg"}
+               src={"/new-images/1.jpg"}
                alt="img"
                height={500}
                width={500}
@@ -96,7 +96,7 @@ const AboutSet = () => {
              />
 
              <Image
-               src={"/images/ece-2.jpg"}
+               src={"/new-images/2.jpg"}
                alt="img"
                height={500}
                width={500}
@@ -104,7 +104,7 @@ const AboutSet = () => {
              />
 
              <Image
-               src={"/images/ece-3.jpg"}
+               src={"/new-images/3.jpg"}
                alt="img"
                height={500}
                width={500}
@@ -118,27 +118,27 @@ const AboutSet = () => {
           <p>{aboutCE.content}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-3 mt-3 mb-5">
              <Image
-               src={"/images/civil-1.jpg"}
+               src={"/new-images/1c.jpg"}
                alt="img"
                height={500}
                width={500}
-               className="rounded-lg"
+               className="rounded-lg max-h-64 object-cover"
              />
 
              <Image
-               src={"/images/civil-2.jpg"}
+               src={"/new-images/2c.jpg"}
                alt="img"
                height={500}
                width={500}
-               className="rounded-lg"
+               className="rounded-lg max-h-64 object-cover"
              />
 
              <Image
-               src={"/images/civil-3.jpg"}
+               src={"/new-images/3c.jpg"}
                alt="img"
                height={500}
                width={500}
-               className="rounded-lg"
+               className="rounded-lg max-h-64 object-cover"
              />
           </div>
         </div>
