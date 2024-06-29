@@ -9,14 +9,14 @@ export const Header = () => {
           <div className="flex flex-row items-center gap-x-2">
             <div>
               <Image
-                width={110}
-                height={50}
+                width={250}
+                height={250}
                 alt="image"
-                src={'/set.jpg'}
+                src={'/new-images/logo1.png'}
                 className="h-fit lg:block hidden"
               />
             </div>
-            <Image src={"/naac.jpeg"} alt="logo" width={250} height={250} className="h-fit" />
+            <Image src={"/new-images/logo2.png"} alt="logo" width={130} height={130} className="h-fit" />
 
           </div>
 
@@ -45,13 +45,13 @@ export const Header = () => {
               <p className='text-green-700 text-3xl font-semibold text-center w-full max-w-6xl'>
                 International Conference on Sustainability and Technological Advancements in Engineering Domain
               </p>
-              <h4 className="text-[#b22b2f]">in Association with IEEE India Council</h4>
               <div className="flex flex-col gap-y-2">
                 <p className="text-center font-semibold text-md ">
                   School of Engineering & Technology,
                   <br />
                   Manav Rachna International Institute of Research and Studies, Faridabad
                 </p>
+                <h4 className="text-[#b22b2f]">in Association with IEEE India Council</h4>
                 <div className="flex items-center justify-center gap-x-3">
 
                   <p className="flex items-center gap-2 text-xl font-bold">
