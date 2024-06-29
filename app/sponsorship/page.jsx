@@ -176,43 +176,43 @@ const SponsorshipProposal = () => {
               <table>
                 <tr className="text-lg font-bold text-black">
                   <th>SPONSORSHIP RATES PARTICULARS</th>
-                  <th>AMT. IN INDIAN RS</th>
+                  <th>AMOUNT (INDIAN RS)</th>
                   <th>REMARKS</th>
                </tr>
                 <tr className="text-md">
-                  <th>Platinum Sponsor	2,00,000/-	</th>
-                  <th>2,00,000/-	</th>
+                  <th>Platinum Sponsor</th>
+                  <th>₹ 2,00,000/-	</th>
                   <th></th>
                 </tr>
                 <tr className="text-md">
                   <th>Gold Sponsor		</th>
-                  <th>1,00,000/-	</th>
+                  <th>₹ 1,00,000/-	</th>
                   <th></th>
                 </tr>
                 <tr className="text-md">
                   <th>Silver Sponsor</th>
-                  <th>50,000/-</th>
+                  <th>₹ 50,000/-</th>
                   <th></th>
                 </tr>
                 <tr className="text-md">
                   <th>Technical Session Sponsorship</th>
-                  <th>50,000/-	</th>
-                  <th>(per day)</th>
+                  <th>₹ 50,000/-	</th>
+                  <th>(Per Day)</th>
                 </tr>
                 <tr className="text-md">
-                  <th>Conference Banquet dinner</th>
-                  <th>1,50,000/-</th>
+                  <th>Conference Banquet Dinner</th>
+                  <th>₹ 1,50,000/-</th>
                   <th>on Dec 13, 2024</th>
                 </tr>
                 <tr className="text-md">
                   <th>Delegate Kits</th>
-                  <th>1,50,000/-</th>
+                  <th>₹ 1,50,000/-</th>
                   <th></th>
                 </tr>
                 <tr className="text-md">
-                  <th>High tea & Lunch</th>
-                  <th>50,000/-</th>
-                  <th>(per day)</th>
+                  <th>High Tea & Lunch</th>
+                  <th>₹ 50,000/-</th>
+                  <th>(Per Day)</th>
                 </tr>
               </table>
             </div>
