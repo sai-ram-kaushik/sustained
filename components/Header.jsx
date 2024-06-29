@@ -45,8 +45,9 @@ export const Header = () => {
               <p className='text-green-700 text-3xl font-semibold text-center w-full max-w-6xl'>
                 International Conference on Sustainability and Technological Advancements in Engineering Domain
               </p>
+              <h4 className="text-[#b22b2f]">In Association With IEEE India Council</h4>
               <div className="flex flex-col gap-y-2">
-                <p className="text-center font-semibold text-md  mt-3">
+                <p className="text-center font-semibold text-md ">
                   School of Engineering & Technology,
                   <br />
                   Manav Rachna International Institute of Research and Studies, Faridabad

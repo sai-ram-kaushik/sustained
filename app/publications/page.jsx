@@ -42,40 +42,40 @@ const Publications = () => {
             </div>
           </ul>
           <div className="pb-80 sm:pb-0 mx-auto w-full grid gap-y-4 grid-cols-1 sm:grid-cols-2 lg:gap-y-0 lg:grid-cols-4 py-8">
-            <div className="flex items-center justify-center"> 
+            <div className=""> 
               <Image
                 src={'/images/pub-1.png'}
                 width={300}
                 height={300}
                 alt="image"
-                className="shadow-lg"
+                className="max-h-64 object-contain"
               />
             </div>
-            <div className="flex items-center justify-center"> 
+            <div className=""> 
               <Image
                 src={'/images/pub-2.png'}
                 width={300}
                 height={300}
                 alt="image"
-                className="shadow-lg"
+                className="max-h-64 object-contain"
               />
             </div>
-            <div className="flex items-center justify-center"> 
+            <div className=""> 
               <Image
                 src={'/images/pub-3.png'}
                 width={300}
                 height={300}
                 alt="image"
-                className="shadow-lg"
+                className="max-h-64 object-contain"
               />
             </div>
-            <div className="flex items-center justify-center"> 
+            <div className=""> 
               <Image
                 src={'/images/ran.jpg'}
                 width={300}
                 height={300}
                 alt="image"
-                className="shadow-lg"
+                className="max-h-64 object-contain"
               />
             </div>
           </div>

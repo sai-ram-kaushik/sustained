@@ -24,10 +24,10 @@ const Registration = () => {
         </div>
         <div className="mt-14 justify-center flex text-gray-600 ">
           <table>
-              <tr className="text-lg font-bold text-[#bd202b]">
+              <tr className="text-lg font-bold text-[#b22b2f]">
                 <th>Registration Type</th>
                 <th>Country</th>
-                <th>IEEE Member</th>
+                <th>IEEE/MREI Member</th>
                 <th>Non-IEEE Member</th>
               </tr>
                <tr className="text-black text-md">
