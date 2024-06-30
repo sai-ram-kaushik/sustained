@@ -126,12 +126,10 @@ const SponsorshipProposal = () => {
       id: "Allied Sponsorship",
       content: (
         <div className="flex flex-col items-center justify-center mt-5">
-          <ul
-            role="list"
+          <ul role="list"
             className="marker:text-secondary list-disc flex flex-col gap-5 p-3 text-justify lg:w-[40rem]"
           >
-           
-            <li>
+            <li >
               Conference Kit Sponsorship: 50,000 INR (Benefits: Sponsor&apos;s
               Logo along with Organizer&apos;s Logo will be placed on the bag)
             </li>
@@ -142,7 +140,7 @@ const SponsorshipProposal = () => {
               Universities.)
             </li>
             <li>Pen drive, T-shirts, and Blazers Sponsorship.</li>
-            <li>
+            <li >
               Any other sponsorship as per mutual understanding and open
               discussion.
             </li>
@@ -240,11 +238,11 @@ const SponsorshipProposal = () => {
           <p className="text-xl text-black font-semibold">
            ALLIED SPONSORSHIP:
           </p>
-          <div className="mt-1 flex-col gap-y-2">
-            <p className=" text-black text-md font-medium">•	Banner and Poster Sponsorship: 25,000 INR (Benefits: Conference Banner and Poster contain the sponsor's logo.) There will be an area for placement at the Conference Venue and Publicized across colleges and Universities.</p>
-           <p className=" text-black text-md font-medium">•	Pen drive, T-shirts, and Blazers Sponsorship.</p>
-           <p className=" text-black text-md font-medium">•	Pen drive, T-shirts, and Blazers Sponsorship.</p>
-          </div>
+          <ol className="mt-1 flex-col gap-y-2">
+            <li className=" text-black text-md font-medium list-disc">Banner and Poster Sponsorship: 25,000 INR (Benefits: Conference Banner and Poster contain the sponsor's logo.) There will be an area for placement at the Conference Venue and Publicized across colleges and Universities.</li>
+           <li className=" text-black text-md font-medium list-disc">Pen drive, T-shirts, and Blazers Sponsorship.</li>
+           <li className=" text-black text-md font-medium list-disc">Pen drive, T-shirts, and Blazers Sponsorship.</li>
+          </ol>
 
           <div className="mt-7 self-center">
             <table>
@@ -287,16 +285,16 @@ const SponsorshipProposal = () => {
         </div>
         <div className="mt-5">
            <p className="text-xl text-black font-semibold">General Terms & Conditions:</p>
-           <div className="flex flex-col gap-y-2 mt-3">
-              <p>1. Since sponsorship opportunities are limited, these shall be allocated on a first come first serve basis.</p>
-              <p> 2.	The sponsors shall set up their stalls (specified size) and bring display material as desired by them for the display stalls.</p>
-              <p> 3.	The sponsors shall set up their stalls (specified size) and bring display material as desired by them for the display stalls.</p>
-              <p>4.	All transactions are subject to Faridabad jurisdiction.</p>
-              <p>5.	All stall requirements shall be made known seven days before the event. All additions shall be charged appropriately.</p>
-              <p>
-                6.Company's Logo & complete Name of the Company with style will be required for acknowledgment through Backdrops, Banners, brochures, stationary, Invitation cards & other promotional material.
-              </p>
-           </div>
+           <ol className="flex flex-col gap-y-2 mt-3">
+              <li className="list-decimal ">Since sponsorship opportunities are limited, these shall be allocated on a first come first serve basis.</li>
+              <li className="list-decimal "> The sponsors shall set up their stalls (specified size) and bring display material as desired by them for the display stalls.</li>
+              <li className="list-decimal "> The sponsors shall set up their stalls (specified size) and bring display material as desired by them for the display stalls.</li>
+              <li className="list-decimal ">All transactions are subject to Faridabad jurisdiction.</li>
+              <li className="list-decimal ">All stall requirements shall be made known seven days before the evenAll additions shall be charged appropriately.</li>
+              <li className="list-decimal ">
+               Company's Logo & complete Name of the Company with style will be required for acknowledgment through Backdrops, Banners, brochures, stationary, Invitation cards & other promotional material.
+              </li>
+           </ol>
         </div>
         <div className="mt-4 py-6">
           <p>
