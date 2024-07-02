@@ -99,7 +99,7 @@ const Registration = () => {
             className="marker:text-secondary list-disc text-justify flex flex-col gap-5"
           >
             <li>
-             •	If the author submits more than one paper, he/she will receive a significant <span className="text-black 
+             If the author submits more than one paper, he/she will receive a significant <span className="text-black 
              font-bold">concession (10%) </span>in the subsequent registrations. For more details, please contact the organizing committee.
             </li>
             <li>

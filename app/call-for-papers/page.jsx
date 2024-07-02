@@ -33,11 +33,11 @@ const CallForPapers = () => {
                 <td ><strong>&nbsp;30<sup>th</sup>&nbsp;July 2024</strong>&nbsp;</td>
               </tr>
               <tr>
-                <td>&nbsp;Notification of Paper Acceptance/Rejectioe</td>
+                <td>&nbsp;Notification of Paper Acceptance/Rejection</td>
                 <td>&nbsp;<strong>30<sup>th</sup>&nbsp;August 2024</strong></td>
               </tr>
               <tr >
-                <td >&nbsp;Deadline for Camera-Ready Paper Submissioe</td>
+                <td >&nbsp;Deadline for Camera-Ready Paper Submission</td>
                 <td >&nbsp;<strong>15<sup>th</sup>&nbsp;September 2024</strong></td>
               </tr>
               <tr >
