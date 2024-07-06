@@ -99,8 +99,7 @@ const Registration = () => {
             className="marker:text-secondary list-disc text-justify flex flex-col gap-5"
           >
             <li>
-             If the author submits more than one paper, he/she will receive a significant <span className="text-black 
-             font-bold">concession (10%) </span>in the subsequent registrations. For more details, please contact the organizing committee.
+            If the author submits more than one paper, he/she will receive a significant <strong>concession of Rs 1000/-</strong> in the subsequent registrations. For more details, please contact the organizing committee.
             </li>
             <li>
               An extended version of the presented paper will be considered for publication in <span className="text-black font-extrabold">various journals </span> which all are SCOPUS indexed.<span className="text-black font-extrabold"> *Additional Fees of INR 3000 </span>will be charged for the publication of extended versions of manuscripts according to the Journal applicable to the student category only.
