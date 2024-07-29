@@ -36,6 +36,9 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
             <Button title="Register Now" />
           </a>
           <span className="text-[#b22b2f] text-lg font-semibold absolute top-4 md:block hidden">IEEE CONFERENCE RECORD #63638</span>
+          <span className="text-center text-lg font-bold">
+            In response to multiple requests received, we announce the extension of the deadline for submission of papers to 30 th August 2024
+          </span>
           <a
             className="absolute right-2 top-1"
             href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSUSTAINED2024"
@@ -43,9 +46,6 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
           >
             <Button title="Submission Open" />
           </a>
-
-
-
           <Carousel />
         </div>
 
