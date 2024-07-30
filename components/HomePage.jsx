@@ -6,6 +6,7 @@ import TransitionEffect from "./TransitionEffect";
 import Image from "next/image";
 import Carousel from "../components/Carousel";
 import { more } from "../data/more";
+import Marquee from "react-fast-marquee";
 const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
   const { title, location, organized, buttonTitle, image } = homePage;
   const { conferenceTitle, content } = aboutConference;
@@ -36,9 +37,9 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
             <Button title="Register Now" />
           </a>
           <span className="text-[#b22b2f] text-lg font-semibold absolute top-4 md:block hidden">IEEE CONFERENCE RECORD #63638</span>
-          <span className="text-center text-lg font-bold">
+          <Marquee className="text-center text-lg font-bold text-secondary">
             In response to multiple requests received, we announce the extension of the deadline for submission of papers to 30 th August 2024
-          </span>
+          </Marquee>
           <a
             className="absolute right-2 top-1"
             href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSUSTAINED2024"

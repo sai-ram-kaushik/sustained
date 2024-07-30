@@ -1,11 +1,48 @@
+"use client"
+
+import Image from "next/image";
 import React from "react";
+import Marquee from "react-fast-marquee";
+import keynote from "../../data/keynote-speakers.json"
 
 const Publications = () => {
+
+
   return (
-    <div className="h-screen px-5 lg:px-10">
-      <div className="container mx-auto h-full">
-        <div className="flex items-center justify-center h-full">
-          <h3>Page under development</h3>
+    <div className="px-5 lg:px-10">
+      <div className="container my-5 flex flex-col justify-center gap-20">
+        <div className="flex flex-col items-center w-full gap-10">
+          <h3 className="text-secondary">Guest Of Honor</h3>
+          <div className="flex md:flex-row flex-col w-full justify-evenly items-center lg:gap-0 gap-10">
+
+            <div className="flex flex-col gap-2">
+              <Image src={"/guest-of-honor/DeepakMathur.jpg"} height={200} width={200} className="shadow-md rounded-md" />
+              <span className="text-xl font-bold text-center font-unbounded text-black">Mr Deepak Mathur</span>
+              <span className="text-center text-secondary">Vice President IEEE MGA</span>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <Image src={"/guest-of-honor/DebabrataDas.jpg"} height={250} width={250} className="shadow-md rounded-md" />
+              <span className="text-xl font-bold text-center text-black">Dr. Debabrata Das</span>
+              <span className="text-center text-secondary">Chair of IEEE India Council &amp; Director</span>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center w-full gap-10">
+          <h3 className="text-secondary">Keynote Speakers</h3>
+          {/* carousel */}
+          <Marquee
+            pauseOnHover
+            speed={75}
+          >
+            {keynote.map((speaker, index) => (
+              <div key={index} className="flex flex-col gap-1 mx-10 items-center">
+                <Image src={speaker.Image} height={200} width={200} className="shadow-md rounded-md object-cover h-64" />
+                <span className="text-xl font-bold text-center text-black">{speaker.Name}</span>
+                <span className="text-center text-secondary w-3/4">{speaker.Designation}</span>
+              </div>
+            ))}
+          </Marquee>
         </div>
       </div>
     </div>

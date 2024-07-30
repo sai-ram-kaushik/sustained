@@ -1,0 +1,74 @@
+[
+    {
+        "Name": "Prof. (Dr.) Bhim Singh",
+        "Designation": "Professor Emeritus",
+        "Affiliation": "IIT Delhi",
+        "Image": "/keynote/DrBheemSingh.jpg"
+    },
+    {
+        "Name": "Dr Brajesh Kumar Dubey",
+        "Designation": "Professor",
+        "Affiliation": "IIT Kharagpur",
+        "Image": "/keynote/ProfDubey.jpg"
+    },
+    {
+        "Name": "Dr. Nitin Kumar Tripathi",
+        "Designation": "Professor",
+        "Affiliation": "Asian Institute of Technology Thailand",
+        "Image": "/keynote/ProfKumarTripathi.jpg"
+    },
+    {
+        "Name": "Dr. Milkias Berhanu",
+        "Designation": "Associate, Dean (Academic Affairs)",
+        "Affiliation": "Department of Electrical Power and Control Engineering Adama Science and Technology University Adama City Ethiopia",
+        "Image": "/keynote/Drmikie.jpg"
+    },
+    {
+        "Name": "Dr. Marta Zurek Mortka",
+        "Designation": "Senior Researcher",
+        "Affiliation": "Department of Control System Institute for Sustainable Technologies Kazimierza Pulaskiego Poland",
+        "Image": "/keynote/DrMarta.jpg"
+    },
+    {
+        "Name": "Dr. Rishikesh Patankar",
+        "Designation": "Vice President",
+        "Affiliation": "National Skill Development Corporation New Delhi",
+        "Image": "/keynote/DrRishikeshPatanka.jpg"
+    },
+    {
+        "Name": "Dr Sanjeet Kumar Dwivedi",
+        "Designation": "Senior Consultant Fellow IET UK Senior Consultant",
+        "Affiliation": "Siemens Gamesa Denmark",
+        "Image": "/keynote/DrSanjeet.jpg"
+    },
+    {
+        "Name": "Dr. Indu Maheshwari",
+        "Designation": "Principal Director",
+        "Affiliation": "NPTI Nagpur",
+        "Image": "/keynote/DrIndu.jpg"
+    },
+    {
+        "Name": "Dr. S. P. Harsha",
+        "Designation": "Professor",
+        "Affiliation": "IIT Roorkee",
+        "Image": "/keynote/DrHarsha.jpg"
+    },
+    {
+        "Name": "Dr. Deepak Kumar",
+        "Designation": "Professor",
+        "Affiliation": "IIT Delhi",
+        "Image": "/keynote/DrDeepakKumar.jpg"
+    },
+    {
+        "Name": "Dr. Andrey V. Kuzmzin",
+        "Designation": "Senior Scientist",
+        "Affiliation": "Institute for Engineering Thermal Physics National Academy of Sciences Ukraine",
+        "Image": "/keynote/DrAndrey.jpg"
+    },
+    {
+        "Name": "Dr Prerna Gaur",
+        "Designation": "IC chair-elect IEEE & Director",
+        "Affiliation": "NSUT New Delhi",
+        "Image": "/keynote/DrPrema.jpg"
+    }
+]
