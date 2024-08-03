@@ -31,29 +31,29 @@ const CallForPapers = () => {
               <tr >
                 <td >&nbsp;Deadline for Full Paper Submission</td>
                 <td >
-                  <s><strong>&nbsp;30<sup>th</sup>&nbsp;July 2024</strong>&nbsp;</s>
-                  <strong>&nbsp;30<sup>th</sup>&nbsp;August 2024</strong>&nbsp;
+                  <span className="line-through decoration-red-500 text-black"><strong>&nbsp;30<sup>th</sup>&nbsp;July 2024</strong>&nbsp;</span>
+                  <strong className="text-red-500">&nbsp;30<sup>th</sup>&nbsp;August 2024</strong>&nbsp;
                 </td>
               </tr>
               <tr>
                 <td>&nbsp;Notification of Paper Acceptance/Rejection</td>
                 <td>
-                  <s>&nbsp;<strong>30<sup>th</sup>&nbsp;August 2024</strong></s>
-                  &nbsp;<strong>30<sup>th</sup>&nbsp;September 2024</strong>
+                  <span className="line-through decoration-red-500 text-black">&nbsp;<strong>30<sup>th</sup>&nbsp;August 2024</strong></span>
+                  &nbsp;<strong  className="text-red-500">30<sup>th</sup>&nbsp;September 2024</strong>
                 </td>
               </tr>
               <tr >
                 <td >&nbsp;Deadline for Camera-Ready Paper Submission</td>
                 <td >
-                  <s>&nbsp;<strong>15<sup>th</sup>&nbsp;September 2024</strong></s>
-                  &nbsp;<strong>15<sup>th</sup>&nbsp;October 2024</strong>
+                  <span className="line-through decoration-red-500 text-black">&nbsp;<strong>15<sup>th</sup>&nbsp;September 2024</strong></span>
+                  &nbsp;<strong className="text-red-500">15<sup>th</sup>&nbsp;October 2024</strong>
                 </td>
               </tr>
               <tr >
                 <td >&nbsp;Early Registration Deadline</td>
                 <td >
-                  <s>&nbsp;<strong>30<sup>th</sup>&nbsp;September 2024</strong></s>
-                  &nbsp;<strong>30<sup>th</sup>&nbsp;October 2024</strong>
+                  <span className="line-through decoration-red-500 text-black">&nbsp;<strong>30<sup>th</sup>&nbsp;September 2024</strong></span>
+                  &nbsp;<strong className="text-red-500">30<sup>th</sup>&nbsp;October 2024</strong>
                 </td>
               </tr>
             </tbody>

@@ -15,16 +15,16 @@ const Publications = () => {
           <h3 className="text-secondary">Guest Of Honor</h3>
           <div className="flex md:flex-row flex-col w-full justify-evenly items-center lg:gap-0 gap-10">
 
-            <div className="flex flex-col gap-2">
-              <Image src={"/guest-of-honor/DeepakMathur.jpg"} height={200} width={200} className="shadow-md rounded-md" />
+            <div className="flex flex-col items-center gap-2">
+              <Image src={"/guest-of-honor/DeepakMathur.jpg"} height={200} width={200} className="shadow-md rounded-md object-cover h-64" />
               <span className="text-xl font-bold text-center font-unbounded text-black">Mr Deepak Mathur</span>
               <span className="text-center text-secondary">Vice President IEEE MGA</span>
             </div>
 
-            <div className="flex flex-col gap-2">
-              <Image src={"/guest-of-honor/DebabrataDas.jpg"} height={250} width={250} className="shadow-md rounded-md" />
-              <span className="text-xl font-bold text-center text-black">Dr. Debabrata Das</span>
-              <span className="text-center text-secondary">Chair of IEEE India Council &amp; Director</span>
+            <div className="flex flex-col items-center gap-2">
+              <Image src={"/guest-of-honor/DebabrataDas.jpg"} height={200} width={200} className="shadow-md rounded-md object-cover h-64" />
+                  <span className="text-xl font-bold text-center text-black ">Dr. Debabrata Das</span>
+              <span className="text-center text-secondary">Chair of IEEE India Council &amp; Director, IIIT Bangalore</span>
             </div>
           </div>
         </div>
@@ -33,13 +33,13 @@ const Publications = () => {
           {/* carousel */}
           <Marquee
             pauseOnHover
-            speed={75}
+            speed={200}
           >
             {keynote.map((speaker, index) => (
-              <div key={index} className="flex flex-col gap-1 mx-10 items-center">
-                <Image src={speaker.Image} height={200} width={200} className="shadow-md rounded-md object-cover h-64" />
-                <span className="text-xl font-bold text-center text-black">{speaker.Name}</span>
-                <span className="text-center text-secondary w-3/4">{speaker.Designation}</span>
+              <div key={index} className="flex flex-col gap-1 items-center  w-[350px]">
+                <Image src={speaker.Image} height={200} width={200} className="shadow-md rounded-md object-cover h-64 " />
+                <span className="text-xl font-bold text-center text-black w-[300px] ">{speaker.Name}</span>
+                <span className="text-center text-secondary w-[300px]">{speaker.Designation}, {speaker.Affiliation}</span>
               </div>
             ))}
           </Marquee>
