@@ -252,11 +252,11 @@ const SponsorshipProposal = () => {
               </tr>
               <tr>
                 <th>Back Cover Page (Colour)</th>
-                <th>50,0000</th>
+                <th>50,000</th>
               </tr>
               <tr>
                 <th>Inner Cover Page (Front & Back)</th>
-                <th>40,0000</th>
+                <th>40,000</th>
               </tr>
               <tr>
                 <th>Full Page (Colour)</th>
