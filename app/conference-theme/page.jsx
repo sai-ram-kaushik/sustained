@@ -13,7 +13,7 @@ const ConferenceTheme = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-3 items-center justify-center">
           <h3>{title}</h3>
-          <p>{subtitle}</p>
+          <p className="text-justify">{subtitle}</p>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6  mt-5">
               {tracks?.map((item,index) => (
                  <Track 
