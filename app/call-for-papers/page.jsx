@@ -45,7 +45,7 @@ const CallForPapers = () => {
               <tr >
                 <td >&nbsp;Deadline for Camera-Ready Paper Submission</td>
                 <td >
-                  <span className="line-through decoration-red-500 text-black">&nbsp;<strong>15<sup>th</sup>&nbsp;October 2024</strong></span>
+                  <span className="line-through decoration-red-500 text-black">&nbsp;<strong>15<sup>th</sup>&nbsp;September 2024</strong></span>
                   &nbsp;<strong className="text-red-500">15<sup>th</sup>&nbsp;October 2024</strong>
                 </td>
               </tr>
