@@ -33,7 +33,7 @@ const Publications = () => {
           {/* carousel */}
           <Marquee
             pauseOnHover
-            speed={200}
+            speed={150}
           >
             {keynote.map((speaker, index) => (
               <div key={index} className="flex flex-col gap-1 items-center  w-[350px]">

@@ -70,5 +70,19 @@
         "Designation": "IC chair-elect IEEE & Director",
         "Affiliation": "NSUT New Delhi",
         "Image": "/keynote/DrPrema.jpg"
+    },
+    {
+        "Name": "Dr Vidya Anand",
+        "Designation": "Principal Scientist, Associate Professor (AcSIR)",
+        "Affiliation":"CSIR- National Physical Laboratory, New Delhi",
+        "Image": "/keynote/DrVidyanand.jpg"
+    },
+    {
+        "Name": "Dr O.P Thakur",
+        "Designation": "Scientist",
+        "Affiliation":"G Solid State Physics Laboratory Lucknow Road, Timarpur Delhi-110054",
+        "Image": "/keynote/DrThakur.jpg"
     }
+
+
 ]

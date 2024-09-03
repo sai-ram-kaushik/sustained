@@ -38,7 +38,7 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
           </a>
           <span className="text-[#b22b2f] text-lg font-semibold absolute top-4 md:block hidden">IEEE CONFERENCE RECORD #63638</span>
           <Marquee className="text-center text-lg font-bold text-secondary">
-            In response to multiple requests received, we announce the extension of the deadline for submission of papers to 30 th August 2024
+            In response to multiple requests received, we announce the extension of the deadline for submission of papers to 30 th September 2024. 
           </Marquee>
           <a
             className="absolute right-2 top-1"
