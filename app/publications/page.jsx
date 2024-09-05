@@ -33,15 +33,11 @@ const Publications = () => {
               </p>
               <p className="flex flex-row gap-x-2 items-center font-semibold">
                 <div className="w-2 h-2 rounded-sm bg-black" />
-                SAE International Journals
-              </p>
-              <p className="flex flex-row gap-x-2 items-center font-semibold">
-                <div className="w-2 h-2 rounded-sm bg-black" />
                 The Journal Of Solidwaste Technology And Management
               </p>
             </div>
           </ul>
-          <div className="pb-80 sm:pb-0 mx-auto w-full grid gap-y-4 grid-cols-1 sm:grid-cols-2 lg:gap-y-0 lg:grid-cols-4 py-8">
+          <div className="pb-80 sm:pb-0 mx-auto w-full grid gap-y-4 grid-cols-1 sm:grid-cols-2 lg:gap-y-0 lg:grid-cols-3 py-8">
             <div className=""> 
               <Image
                 src={'/images/pub-1.png'}
@@ -54,15 +50,6 @@ const Publications = () => {
             <div className=""> 
               <Image
                 src={'/images/pub-2.png'}
-                width={300}
-                height={300}
-                alt="image"
-                className="max-h-64 object-contain"
-              />
-            </div>
-            <div className=""> 
-              <Image
-                src={'/images/pub-3.png'}
                 width={300}
                 height={300}
                 alt="image"

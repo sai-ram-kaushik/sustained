@@ -80,8 +80,20 @@
     {
         "Name": "Dr O.P. Thakur",
         "Designation": "Scientist",
-        "Affiliation":"G Solid State Physics Laboratory, DRDO Lucknow Road, Timarpur Delhi",
+        "Affiliation":"G Solid State Physics Laboratory, DRDO Lucknow Road, Timarpur Delhi, India",
         "Image": "/keynote/DrThakur.jpg"
+    },
+    {
+        "Name": "Mr. Ravi Kumar Verma",
+        "Designation": "Scientist/Engineer-SF Space Applications Centre (SAC)",
+        "Affiliation":"Indian Space Research Organisation (ISRO) Ahmedabad, India",
+        "Image": "/keynote/MrRavi.jpeg"
+    },
+    {
+        "Name": "Dr. Pradeep Kumar",
+        "Designation": "Chief Scientist",
+        "Affiliation":"CSIR-CRRI, New Delhi, India",
+        "Image": "/keynote/DrPradeep.jpeg"
     }
 
 
