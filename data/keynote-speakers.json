@@ -14,7 +14,7 @@
     {
         "Name": "Dr. Nitin Kumar Tripathi",
         "Designation": "Professor",
-        "Affiliation": "Asian Institute of Technology Thailand",
+        "Affiliation": "Asian Institute of Technology, Thailand",
         "Image": "/keynote/ProfKumarTripathi.jpg"
     },
     {
@@ -26,25 +26,25 @@
     {
         "Name": "Dr. Marta Zurek Mortka",
         "Designation": "Senior Researcher",
-        "Affiliation":"Institute for Sustainable Technologies Kazimierza Pulaskiego Poland",
+        "Affiliation":"Institute for Sustainable Technologies, Kazimierza, Pulaskiego, Poland",
         "Image": "/keynote/DrMarta.jpg"
     },
     {
         "Name": "Dr. Rishikesh Patankar",
         "Designation": "Vice President",
-        "Affiliation": "National Skill Development Corporation New Delhi",
+        "Affiliation": "National Skill Development Corporation, New Delhi",
         "Image": "/keynote/DrRishikeshPatanka.jpg"
     },
     {
-        "Name": "Dr Sanjeet Kumar Dwivedi",
-        "Designation": "Senior Consultant Fellow IET UK Senior Consultant",
-        "Affiliation": "Siemens Gamesa Denmark",
+        "Name": "Dr Sanjeet Kumar Dwivedi,",
+        "Designation": "Senior Consultant Fellow, IET UK Senior Consultant",
+        "Affiliation": "Siemens Gamesa, Denmark",
         "Image": "/keynote/DrSanjeet.jpg"
     },
     {
-        "Name": "Dr. Indu Maheshwari",
+        "Name": "Dr. Indu Maheshwari,",
         "Designation": "Principal Director",
-        "Affiliation": "NPTI Nagpur",
+        "Affiliation": "NPTI, Nagpur",
         "Image": "/keynote/DrIndu.jpg"
     },
     {
@@ -54,43 +54,43 @@
         "Image": "/keynote/DrHarsha.jpg"
     },
     {
-        "Name": "Dr. Deepak Kumar",
+        "Name": "Dr. Deepak Kumar,",
         "Designation": "Professor",
         "Affiliation": "IIT Delhi",
         "Image": "/keynote/DrDeepakKumar.jpg"
     },
     {
-        "Name": "Dr. Andrey V. Kuzmzin",
+        "Name": "Dr. Andrey V. Kuzmzin,",
         "Designation": "Senior Scientist",
-        "Affiliation": "Institute for Engineering Thermal Physics National Academy of Sciences Ukraine",
+        "Affiliation": "Institute for Engineering Thermal Physics National Academy of Sciences, Ukraine",
         "Image": "/keynote/DrAndrey.jpg"
     },
     {
-        "Name": "Dr Prerna Gaur",
+        "Name": "Dr Prerna Gaur,",
         "Designation": "IC chair-elect IEEE & Director",
-        "Affiliation": "NSUT New Delhi",
+        "Affiliation": "NSUT, New Delhi",
         "Image": "/keynote/DrPrema.jpg"
     },
     {
-        "Name": "Dr Vidya Nand Singh",
+        "Name": "Dr Vidya Nand Singh,",
         "Designation": "Principal Scientist, Associate Professor (AcSIR)",
         "Affiliation":"CSIR- National Physical Laboratory, New Delhi",
         "Image": "/keynote/DrVidyanand.jpg"
     },
     {
-        "Name": "Dr O.P. Thakur",
+        "Name": "Dr O.P. Thakur,",
         "Designation": "Scientist",
-        "Affiliation":"G Solid State Physics Laboratory, DRDO Lucknow Road, Timarpur Delhi, India",
+        "Affiliation":"G Solid State Physics Laboratory, DRDO Lucknow Road, Timarpur, Delhi, India",
         "Image": "/keynote/DrThakur.jpg"
     },
     {
-        "Name": "Mr. Ravi Kumar Verma",
-        "Designation": "Scientist/Engineer-SF Space Applications Centre (SAC)",
+        "Name": "Mr. Ravi Kumar Verma,",
+        "Designation": "Scientist/Engineer-SF, Space Applications Centre (SAC)",
         "Affiliation":"Indian Space Research Organisation (ISRO) Ahmedabad, India",
         "Image": "/keynote/MrRavi.jpeg"
     },
     {
-        "Name": "Dr. Pradeep Kumar",
+        "Name": "Dr. Pradeep Kumar,",
         "Designation": "Chief Scientist",
         "Affiliation":"CSIR-CRRI, New Delhi, India",
         "Image": "/keynote/DrPradeep.jpeg"
