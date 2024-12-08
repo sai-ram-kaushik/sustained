@@ -20,6 +20,10 @@ export const Header = () => {
 
           </div>
 
+          <div>
+            <Image src={"/drdo.png"} alt="logo" width={100} height={100} className="h-fit lg:block hidden" />
+          </div>
+
 
           <div className="flex flex-row gap-x-2 items-center">
             <Image className="h-fit "
@@ -30,6 +34,7 @@ export const Header = () => {
             />
             <Image src={"/IEEE.webp"} width={70} height={100} className="h-fit lg:block hidden" />
             <Image src={"/logo.png"} width={100} height={120} className="h-fit lg:block hidden" />
+            <Image src={"/mi.png"} width={70} height={70} className="h-fit lg:block hidden" />
 
           </div>
         </div>

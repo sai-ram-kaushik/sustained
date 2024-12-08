@@ -1,10 +1,5 @@
 [
-    {
-        "Name": "Prof. (Dr.) Bhim Singh",
-        "Designation": "Professor Emeritus",
-        "Affiliation": "IIT Delhi",
-        "Image": "/keynote/DrBheemSingh.jpg"
-    },
+
     {
         "Name": "Dr Brajesh Kumar Dubey",
         "Designation": "Professor",
@@ -26,8 +21,8 @@
     {
         "Name": "Dr. Marta Zurek Mortka",
         "Designation": "Senior Researcher",
-        "Affiliation":"Institute for Sustainable Technologies, Kazimierza, Pulaskiego, Poland",
-        "Image": "/keynote/DrMarta.jpg"
+        "Affiliation":"Department of Control Systems, IST, Poland",
+        "Image": "/keynote/DrMarta.png"
     },
     {
         "Name": "Dr. Rishikesh Patankar",
@@ -45,17 +40,17 @@
         "Name": "Dr. Indu Maheshwari,",
         "Designation": "Principal Director",
         "Affiliation": "NPTI, Nagpur",
-        "Image": "/keynote/DrIndu.jpg"
+        "Image": "/keynote/DrIndu.png"
     },
     {
         "Name": "Dr. S. P. Harsha",
-        "Designation": "Professor",
+        "Designation": "Professor, Mechanical Engineering",
         "Affiliation": "IIT Roorkee",
-        "Image": "/keynote/DrHarsha.jpg"
+        "Image": "/keynote/DrHarsha.png"
     },
     {
         "Name": "Dr. Deepak Kumar,",
-        "Designation": "Professor",
+        "Designation": "Professor, CART",
         "Affiliation": "IIT Delhi",
         "Image": "/keynote/DrDeepakKumar.jpg"
     },
@@ -75,7 +70,7 @@
         "Name": "Dr Vidya Nand Singh,",
         "Designation": "Principal Scientist, Associate Professor (AcSIR)",
         "Affiliation":"CSIR- National Physical Laboratory, New Delhi",
-        "Image": "/keynote/DrVidyanand.jpg"
+        "Image": "/keynote/DrVidya.png"
     },
     {
         "Name": "Dr O.P. Thakur,",
@@ -94,6 +89,12 @@
         "Designation": "Chief Scientist",
         "Affiliation":"CSIR-CRRI, New Delhi, India",
         "Image": "/keynote/DrPradeep.jpeg"
+    },
+    {
+        "Name": "Dr. Kanwar Singh",
+        "Designation": "Chief Scientist, CSIR-CRRI,",
+        "Affiliation":"New Delhi, India",
+        "Image": "/keynote/DrKanwar.png"
     }
 
 

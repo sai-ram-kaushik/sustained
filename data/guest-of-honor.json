@@ -1,0 +1,44 @@
+[
+    {
+        "Name": "Dr. Debabrata Das",
+        "Designation": "Director",
+        "Affiliation": "IIIT Bangalore",
+        "Image": "/guest-of-honor/DebabrataDas.jpg"
+    },
+    {
+        "Name": "Dr. Preeti Bajaj",
+        "Designation": "Director General",
+        "Affiliation": "KIET Group of Institutions, Ghaziabad",
+        "Image": "/guest-of-honor/drPreeti.png"
+    },
+    {
+        "Name": "Dr. Ji Wang",
+        "Designation": "Professor",
+        "Affiliation": "Ningbo University, China",
+        "Image": "/guest-of-honor/drJi.png"
+    },
+    {
+        "Name": "Dr. Bruno Castanie",
+        "Designation": "Professeur",
+        "Affiliation": "Institut Clément Ader, INSA Toulouse, France",
+        "Image": "/guest-of-honor/drBruno.png"
+    },
+    {
+        "Name": "Dr. Syuhaida Ismail",
+        "Designation": "Director of Research",
+        "Affiliation": "Maritime Institute of Malaysia (MIMA), Kuala Lumpur, Malaysia",
+        "Image": "/guest-of-honor/drSyu.png"
+    },
+    {
+        "Name": "Mr. Deepak Mathur",
+        "Designation": "IEEE Vice President - MGA",
+        "Affiliation": "",
+        "Image": "/guest-of-honor/DeepakMathur.jpg"
+    },
+    {
+        "Name": "Prof. (Dr.) Bhim Singh",
+        "Designation": "Professor Emeritus",
+        "Affiliation": "IIT Delhi",
+        "Image": "/keynote/DrBheemSingh.jpg"
+    }
+]
