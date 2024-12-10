@@ -17,11 +17,9 @@ const Publications = () => {
           <div className="flex md:flex-row flex-col w-full justify-evenly items-center lg:gap-0 gap-10">
 
             <div className="flex flex-col items-center gap-2">
-              <Image src={"/keynote/chief.png"} height={200} width={200} className="shadow-md rounded-md object-cover h-64" />
-              <span className="text-xl font-bold text-center font-unbounded text-black">Dr. Avichal Raj Kapur</span>
-              <span className="text-center text-secondary">Joint Secretary, 
-University Grants Commission,
-New Delhi
+              <Image src={"/guest-of-honor/DeepakMathur.jpg"} height={200} width={200} className="shadow-md rounded-md object-cover h-64" />
+              <span className="text-xl font-bold text-center font-unbounded text-black">Mr. Deepak Mathur</span>
+              <span className="text-center text-secondary">IEEE Vice President - MGA
 </span>
             </div>
           </div>
